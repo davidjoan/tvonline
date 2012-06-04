@@ -1,0 +1,45 @@
+
+/*************************** 
+  Menu 
+ ***************************/
+.submenu{
+	position:absolute;
+	top:81px;
+	width:100px;
+	visibility:hidden;
+}
+.itemmenu a{
+	display:block;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background:#FC9;
+	font-size:10px;
+	text-align:center;
+	color:black;
+	text-decoration:none;
+	position:relative;
+	top:0px;
+	left:0px;
+}
+.itemmenu a:hover{
+	background:#DD2424;
+	border:1px solid black;
+}
+.itemmenu{
+	width:56px;
+}
+
+/* Tooltip */
+a span{
+	display:none
+}
+a:hover span{
+	display:block;
+	position:absolute;
+	top:2px;
+	left:-6px;
+	background:#E8F2FF;
+	color:black;
+	border:1px dotted black;
+	width:80px;
+	padding:1px;
+}

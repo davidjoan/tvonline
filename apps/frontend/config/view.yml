@@ -1,0 +1,29 @@
+default:
+  http_metas:
+    content-type: text/html
+  metas:
+    title:         PeruTVonline | perutvonline.com
+    description:   Television Peruana para el mundo entero
+    keywords:      tv,online,peru,television,en,vivo,es,live,stream
+    language:      es
+    robots:        index, follow
+    copyright:     Journal Comunication S.A.C
+    geo.region:    PE
+    geo.position:  -12.051198,-77.034094
+    ICBM:          -12.051198,-77.034094    
+   
+  stylesheets:
+    - frontend/layout.css:         { position: first }
+    - frontend/menu.css:           { position: first }
+    - fancybox/jquery.fancybox-1.3.4.css: { media: screen }
+
+  javascripts:
+    - jquery/jquery-1.4.2.min.js
+    - jquery/jquery-ui-1.8.min.js
+    - fancybox/jquery.mousewheel-3.0.4.pack.js
+    - fancybox/jquery.fancybox-1.3.4.pack.js
+
+  
+
+  has_layout:     true
+  layout:         layout

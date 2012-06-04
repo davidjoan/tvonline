@@ -1,0 +1,6 @@
+all:
+  video:
+    width: 600px
+    height: 320px
+    autoplay: false
+    autobuffering: true

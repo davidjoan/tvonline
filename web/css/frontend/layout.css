@@ -1,0 +1,166 @@
+#btnLoad {
+   /* width: 64px;
+    height: 64px;
+    
+    top: 65%;
+    left: 55%;
+    margin-top: -75px;
+    margin-left: -75px;*/
+   position: absolute; 
+   margin-top: 15px;
+   left: 55%;
+   right: 45%;
+   z-index: 1000;
+   
+}
+#btnLoad2 {
+   position: absolute; 
+   margin-top: 100px;
+   left: 48%;
+   right: 52%;
+   z-index: 10000;
+   
+}
+
+.borda {
+	border: 1px solid #FFFFFF;
+}
+.brancotxt {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+.menu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #ce2515;
+	text-decoration: none;
+	height: 20px;
+	width: 196px;
+        text-align: left;
+}
+.menu:link {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #ce2515;
+	text-decoration: none;
+	height: 20px;
+	width: 196px;
+}
+.menu:active {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #ce2515;
+	text-decoration: none;
+	height: 20px;
+	width: 196px;
+}
+.menu:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #ce2515;
+	text-decoration: none;
+	height: 20px;
+	width: 196px;
+	background-color: #FFFFFF;
+}
+.menu2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 20px;
+	color: #001e3f;
+	text-decoration: none;
+	height: 20px;
+	width: 196px;
+	font-weight: normal;
+}
+.menu2:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 20px;
+	color: #001e3f;
+	text-decoration: none;
+	height: 20px;
+	width: 196px;
+	font-weight: normal;
+}
+.menu2:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 20px;
+	color: #001e3f;
+	text-decoration: none;
+	height: 20px;
+	width: 196px;
+	font-weight: normal;
+}
+.menu2:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 20px;
+	color: #001e3f;
+	text-decoration: none;
+	height: 20px;
+	width: 196px;
+	background-color: #FFFFFF;
+	font-weight: normal;
+}
+.rodape {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #65A3E8;
+}
+.linkpequeno {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #00244C;
+	text-decoration: none;
+}
+.linkpequeno:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #00244C;
+	text-decoration: none;
+}
+.linkpequeno:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #00244C;
+	text-decoration: none;
+}
+.linkpequeno:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #990000;
+	text-decoration: underline;
+}
+.ajuda02 {
+	background-image: url(/images/frontend/ajuda02.gif);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.ajuda04 {
+	background-image: url(/images/frontend/ajuda04.gif);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.imgiframe {
+	background-image: url(/images/frontend/fundovideop.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.form {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	border: 1px solid #000000;
+}
