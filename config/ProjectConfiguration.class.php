@@ -1,7 +1,5 @@
 <?php
-
-require_once 'D:\xampp\htdocs/Symfony/lib/autoload/sfCoreAutoload.class.php';
-//require_once '/var/www/html/symfony/lib/autoload/sfCoreAutoload.class.php';
+require_once dirname(__FILE__).'/../lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php';
 sfCoreAutoload::register();
 require_once(dirname(__FILE__).'/../plugins/symfextPlugin/config/sfProjectConfigurationExt.class.php');
 require_once(dirname(__FILE__).'/../lib/vendor/geshi/geshi.php');

@@ -1,38 +1,66 @@
-<div id="content-videos">
-<?php if(count($videos) > 0):?>
-<ul id="slider-one">
-  <?php foreach($videos as $key => $video):?>
-    <li>
-      <?php echo link_to
-                 (
-                   image_tag(sfConfig::get('app_video_images_path').'/'.$video->getImage(), 
-                   array('border' => 0,'width' => 67,'height' => 50, 'alt' => $video->Translation['es']->title )), 
-                   '@homepage?category='.$video->getCategoryId().'&video='.$video->getId(),
-                   array
-                   (
-                     'onClick' => sprintf(
-                                    "cargaVideo('%s',%s);
-                                    document.getElementById('btnLoad2').style.display = 'inline';
-                                    $('#MPlay1').html('');
-                                    return false;",
-                                    sfContext::getInstance()->getController()->genUrl('@load_video'),
-                                    $video->getId()
-                                     ),'title' => $video->Translation['es']->title
-                   )
-                  );
-      ?>
-    </li>
-  <?php endforeach; ?>
-</ul>
-<?php endif; ?>
-</div>
-<script type="text/javascript">
-$(function(){
-	$('#slider-one').movingBoxes({
-		startPanel   : 4,
-		width        : 600,
-		wrap         : true,
-		buildNav     : false
-	});
-});
-</script>
+<div class="txtSeccion">NOVEDADES</div>
+            <ul id="mycarousel" class="jcarousel-skin-tango">
+                <li>
+                	<div class="itemtodo alpha70 redondo">
+                    	<div class="breaker"></div>
+                    	<div class="itemvideo redondo" style="background-color:#666">&nbsp;</div>
+                        <div class="itemtxt">texto 1 texto 1 texto 1 texto 1 texto 1.</div>
+                    </div>
+                </li>
+                <li>
+                	<div class="itemtodo alpha70 redondo">
+                    	<div class="breaker"></div>
+                    	<div class="itemvideo redondo" style="background-color:#666">&nbsp;</div>
+                        <div class="itemtxt">texto 2 texto 2 texto 2 texto 2 texto 2.</div>
+                    </div>                
+                </li>
+                <li>
+                	<div class="itemtodo alpha70 redondo">
+                    	<div class="breaker"></div>
+                    	<div class="itemvideo redondo" style="background-color:#666">&nbsp;</div>
+                        <div class="itemtxt">texto 3 texto 3 texto 3 texto 3 texto 3.</div>
+                    </div>                
+                </li>
+                <li>
+                	<div class="itemtodo alpha70 redondo">
+                    	<div class="breaker"></div>
+                    	<div class="itemvideo redondo" style="background-color:#666">&nbsp;</div>
+                        <div class="itemtxt">texto 4 texto 4 texto 4 texto 4 texto 4.</div>
+                    </div>                
+                </li>
+                <li>
+                	<div class="itemtodo alpha70 redondo">
+                    	<div class="breaker"></div>
+                    	<div class="itemvideo redondo" style="background-color:#666">&nbsp;</div>
+                        <div class="itemtxt">texto 5 texto 5 texto 5 texto 5 texto 5.</div>
+                    </div>                
+                </li>
+                <li>
+                	<div class="itemtodo alpha70 redondo">
+                    	<div class="breaker"></div>
+                    	<div class="itemvideo redondo" style="background-color:#666">&nbsp;</div>
+                        <div class="itemtxt">texto 6 texto 6 texto 6 texto 6 texto 6.</div>
+                    </div>                
+                </li>
+                <li>
+                	<div class="itemtodo alpha70 redondo">
+                    	<div class="breaker"></div>
+                    	<div class="itemvideo redondo" style="background-color:#666">&nbsp;</div>
+                        <div class="itemtxt">texto 7 texto 7 texto 7 texto 7 texto 7.</div>
+                    </div>                
+                </li>
+                <li>
+                	<div class="itemtodo alpha70 redondo">
+                    	<div class="breaker"></div>
+                    	<div class="itemvideo redondo" style="background-color:#666">&nbsp;</div>
+                        <div class="itemtxt">texto 8 texto 8 texto 8 texto 8 texto 8.</div>
+                    </div>                
+                </li>
+                <li>
+                	<div class="itemtodo alpha70 redondo">
+                    	<div class="breaker"></div>
+                    	<div class="itemvideo redondo" style="background-color:#666">&nbsp;</div>
+                        <div class="itemtxt">texto 9 texto 9 texto 9 texto 9 texto 9.</div>
+                    </div>                
+                </li>
+            </ul>

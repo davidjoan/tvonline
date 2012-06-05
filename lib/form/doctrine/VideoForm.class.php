@@ -56,9 +56,10 @@ class VideoForm extends BaseVideoForm
                                   ),
                                   array('size'         => '60',)
                                 ),
-      'video'                => new sfWidgetFormTextarea(array(), array('cols' => 50, 'rows' => 6)),
-      //'video'                => new sfWidgetFormInputText(array(), array('size' => 30)),
-      'video_preview'        => new sfVideoWidget(array('player.width' => '330px', 'player.height' => '200px', 'url' => 'http://724378576.r.cdnstreaming.net/H264 4.mp4?format=apple'), array()),
+      //'video'                => new sfWidgetFormTextarea(array(), array('cols' => 50, 'rows' => 6)),
+      'time'                 => new sfWidgetFormInputText(array(), array('size' => 10)),
+      'video'                => new sfWidgetFormInputText(array(), array('size' => 30)),
+      //'video_preview'        => new sfVideoWidget(array('player.width' => '330px', 'player.height' => '200px', 'url' => 'http://724378576.r.cdnstreaming.net/H264 4.mp4?format=apple'), array()),
       'active'               => new sfWidgetFormChoice(array
                                 (
                                   'choices'          => $this->getTable()->getStatuss(),
@@ -90,6 +91,7 @@ class VideoForm extends BaseVideoForm
       'code'        => '-',
       'image'       => 'file',
       'video'       => 'pass',
+      'time'        => 'pass',
       'active'      => array('combo', array('choices' => array_keys($this->getTable()->getStatuss()))),
       'new'         => array('combo', array('choices' => array_keys($this->getTable()->getStatuss()))),
       'type'        => array('combo', array('choices' => array_keys($this->getTable()->getTypes()))),

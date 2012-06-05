@@ -61,7 +61,7 @@ a:active {
 	clear:both;
 }
 .fondo {
-	background-image:url(../img/fdo.jpg);
+	background-image:url(../../images/frontend/fdo.jpg);
 	background-repeat:no-repeat;
 	width:1003px;
 	min-height:605px;
@@ -82,7 +82,7 @@ a:active {
 	margin:54px 0px 0px 32px;
 }
 #logo {
-	background-image:url(../img/logo.png);
+	background-image:url(../../images/frontend/logo.png);
 	background-repeat:no-repeat;
 	width:380px;
 	min-height:66px;
@@ -178,7 +178,7 @@ a:active {
     margin: 8px 15px 5px;
 }
 .txtfdocolor1 {
-    background-image: url("../img/btons_03.png");
+    background-image: url("../../images/frontend/btons_03.png");
     color: white;
     float: left;
     font-size: small;
@@ -190,7 +190,7 @@ a:active {
     width: 86px;
 }
 .txtfdocolor2 {
-    background-image: url("../img/btons_05.png");
+    background-image: url("../../images/frontend/btons_05.png");
     color: white;
     float: left;
     font-size: small;
@@ -202,7 +202,7 @@ a:active {
     width: 113px;
 }
 .txtfdocolor3 {
-    background-image: url("../img/btons_07.png");
+    background-image: url("../../images/frontend/btons_07.png");
     color: white;
     float: left;
     font-size: small;
@@ -214,7 +214,7 @@ a:active {
     width: 146px;
 }
 .txtfdocolor4 {
-    background-image: url("../img/btons_09.png");
+    background-image: url("../../images/frontend/btons_09.png");
     color: white;
     float: left;
     font-size: small;
@@ -226,7 +226,7 @@ a:active {
     width: 142px;
 }
 .txtfdocolor5 {
-    background-image: url("../img/btons_11.png");
+    background-image: url("../../images/frontend/btons_11.png");
     color: white;
     float: left;
     font-size: small;
@@ -238,7 +238,7 @@ a:active {
     width: 112px;
 }
 .txtfdocolor6 {
-    background-image: url("../img/btons_13.png");
+    background-image: url("../../images/frontend/btons_13.png");
     color: white;
     float: left;
     font-size: small;
@@ -250,7 +250,7 @@ a:active {
     width: 86px;
 }
 .txtfdocolor7 {
-    background-image: url("../img/btons_15.png");
+    background-image: url("../../images/frontend/btons_15.png");
     color: white;
     float: left;
     font-size: small;
@@ -262,7 +262,7 @@ a:active {
     width: 86px;
 }
 .txtfdocolor8 {
-    background-image: url("../img/btons_17.png");
+    background-image: url("../../images/frontend/btons_17.png");
     color: white;
     float: left;
     font-size: small;

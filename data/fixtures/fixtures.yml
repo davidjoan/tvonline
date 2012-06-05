@@ -63,40 +63,28 @@ Category:
       Category_5:
         Translation:
           es:
-            name: 'Cine Nacional'
+            name: 'Cine'
             description: '<p></p>'          
           en:
-            name: 'Peruvian Films'
+            name: 'Films'
             description: '<p></p>'
           pt:
-            name: 'Cinema Peruano'
+            name: 'Cinema'
             description: '<p></p>'
         active: '1'
         rank: 6
         created_by: '1'
-        updated_by: admin
-      Category_6:
-        Translation:
-          es:
-            name: 'Elecciones Generales Per&uacute; 2011'
-            description: '<p></p>'          
-          en:
-            name: 'General Election Peru 2011'
-            description: '<p></p>'
-        active: '0'
-        rank: 11
-        created_by: '1'
-        updated_by: admin        
+        updated_by: admin       
       Category_7:
         Translation:
           es:
-            name: 'Interés General-Infomerciales'
+            name: 'Interés'
             description: '<p></p>'          
           en:
-            name: 'General Interes-Inforcomercials'
+            name: 'Interes'
             description: '<p></p>'
           pt:
-            name: 'Interese Geral-Infomerciais'
+            name: 'Interese'
             description: '<p></p>'
         active: '1'
         rank: 8
@@ -105,43 +93,28 @@ Category:
       Category_8:
         Translation:
           es:
-            name: 'Empresas Exportadoras'
+            name: 'Empresas'
             description: '<p></p>'          
           en:
-            name: 'Export Companies'
+            name: 'Companies'
             description: '<p></p>'
           pt:
-            name: 'Empresas Exportadoras'
+            name: 'Empresas'
             description: '<p></p>'
         active: '1'
         rank: 3
         created_by: '1'
         updated_by: admin
-      Category_9:
-        Translation:
-          es:
-            name: 'Quiénes Somos?'
-            description: '<p></p>'          
-          en:
-            name: 'Our Company'
-            description: '<p></p>'
-          pt:
-            name: 'Quem Somos?'
-            description: '<p></p>'
-        active: '1'
-        rank: 2
-        created_by: '1'
-        updated_by: admin
       Category_10:
         Translation:
           es:
-            name: 'Folklore y Cultura Nacional'
+            name: 'Cultura'
             description: '<p></p>'          
           en:
-            name: 'Folk and National Culture'
+            name: 'Culture'
             description: '<p></p>'
           pt:
-            name: 'Folklore e Cultura Nacional'
+            name: 'Cultura'
             description: '<p</p>'
         active: '1'
         rank: 5
@@ -167,30 +140,30 @@ Video:
   Video_1:
     Translation:
       es:
-        title: 'TEC'          
+        title: 'video 1'
       en:
-        title: 'TEC'
+        title: 'video 1'
       pt:
-        title: 'TEC'
+        title: 'video 1'
     Category: Category_2
     code: '00001000'
     image: c284e967116f77b33a162e0c7df996cbf5e48d56.jpg
-    video: TEC.wmv
+    video: video_1
     new: '1'
     active: '1'
     created_by: '1'
   Video_2:
     Translation:
       es:
-        title: 'Costa Per&uacute;'          
+        title: 'video 2'          
       en:
-        title: 'Costa Per&uacute;'  
+        title: 'video 2'  
       pt:
-        title: 'Costa Per&uacute;'
+        title: 'video 2'
     Category: Category_11
     code: '00001001'
     image: 3223f68d53d998b2cb72b47737148a04d05bb7fc.jpg
-    video: 'Costa_Peru.wmv'
+    video: 'vide_2'
     new: '1'
     active: '1'
     slug: '00001001'
@@ -198,15 +171,30 @@ Video:
   Video_3:
     Translation:
       es:
-        title: 'Costa Per&uacute;'          
+        title: 'video 3'          
       en:
-        title: 'Costa Per&uacute;'  
+        title: 'video 3'  
       pt:
-        title: 'Costa Per&uacute;'
+        title: 'video 3'
     Category: Category_2
     code: '00001002'
     image: 29896d6c20a860aeb12db11bc9da304fc19cf3ef.jpg
-    video: aaa.avi
+    video: video_3
     new: '1'
     active: '1'
     created_by: '1'
+  Video_4:
+    Translation:
+      es:
+        title: 'video 4'          
+      en:
+        title: 'video 4'  
+      pt:
+        title: 'video 4'
+    Category: Category_2
+    code: '00001002'
+    image: 29896d6c20a860aeb12db11bc9da304fc19cf3ef.jpg
+    video: video_4
+    new: '1'
+    active: '1'
+    created_by: '1'    
