@@ -20,11 +20,12 @@
                                 (
                                   array('2' , ''              , ''              , ''                ),
                                   array('10', 'code'          , 'C&oacute;digo' , 'getCode'         ),
-                                  array('30', 'title_str'     , 'Titulo'        , 'getTitleStr'     ),                                  
-                                  array('20', 'category_name' , 'Categoria'     , 'getCategoryName' ),
+                                  array('20', 'title_str'     , 'Titulo'        , 'getTitleStr'     ),                                  
+                                  array('15', 'category_name' , 'Categoria'     , 'getCategoryName' ),
                                   array('10', 'type'          , 'Formato'       , 'getTypeStr'      ),
                                   array('10', 'time'          , 'Duración'       , 'getTime'      ),
-                                  array('20', 'created_at'    , 'Fecha Creaci&oacute;n' , 'getFormattedDatetime'    ),
+                                  array('10', 'new'           , 'En Vivo'        , 'getNewStr'      ),
+                                  array('10', 'created_at'    , 'Fecha Creaci&oacute;n' , 'getFormattedDatetime'    ),
                                   array('6' , 'disable_image' , 'Activo'        , 'getDisableImage', 'center', false),
                                   array('2' , ''              , ''              , 'checkbox'       ),
                                 )                                

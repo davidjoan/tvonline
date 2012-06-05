@@ -20,7 +20,7 @@
     <td align="center" valign="top" background="/images/frontend/miolo.jpg">
       <table width="1024" border="0" cellpadding="0" cellspacing="0">
       <tr>
-        <td height="60" align="left"><img src="/images/frontend/logo.gif" width="230" height="48" /></td>
+        <td height="60" align="left"><img src="/images/general/logo.png" width="230" height="48" /></td>
       </tr>
       <tr>
         <td align="center">

@@ -46,6 +46,18 @@ class VideoTable extends DoctrineTable
     return self::$types;
   }
   
+    protected static
+    $news                 = array
+                             (
+                               '1'     => 'Si',
+                               '0'     => 'No'
+                             );
+
+  public function getNews()
+  {
+    return self::$news;
+  }
+  
   public function getPathDir()
   {
     return sfConfig::get('app_video_images_dir');
@@ -100,7 +112,25 @@ class VideoTable extends DoctrineTable
       else
       {
           return null;
-      }
-      
+      }   
+  }
+  
+  public function getLive()
+  {
+  	$q = $this->createAliasQuery('v')
+                  ->addWhere('v.type <> ?', 'F');
+         
+    if($category_id <> '')
+    {
+      $q->addWhere('v.category_id = ?', $category_id);
+    }
+    else
+    {
+      $q->addWhere('v.new = ?', 1);
+    }
+    
+    $q->orderBy('v.created_at DESC');
+    
+    return $q->execute();      
   }
 }

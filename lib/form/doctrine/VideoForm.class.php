@@ -20,7 +20,7 @@ class VideoForm extends BaseVideoForm
       'video'       => 'Video',
       'video_preview' => 'Vista Previa',
       'time'        => 'Duración',
-      'new'         => 'Nuevo',
+      'new'         => 'Programación en Vivo',
       'type'        => 'Formato',
       'active'      => 'Activo'
     );

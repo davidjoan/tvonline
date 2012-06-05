@@ -25,6 +25,12 @@ class Video extends BaseVideo
   	$actives = $this->getTable()->getStatuss();
   	return $actives[$this->getActive()];
   }
+  
+  public function getNewStr()
+  {  	
+  	$actives = $this->getTable()->getNews();
+  	return $actives[$this->getNew()];
+  }  
 
   public function getTypeStr()
   {  	
@@ -68,7 +74,8 @@ class Video extends BaseVideo
         $variable = preg_replace('/([Ww]idth: "[0-9]{3}px")/', 'width: 320px', $variable);
         
     $this->_set('video', $variable);
-        
-
+      
   }
+  
+
 }

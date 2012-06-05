@@ -18,6 +18,7 @@ default:
   javascripts:
     - jquery/jquery-1.4.2.min.js
     - frontend/jquery.jcarousel.min.js
+    - flowplayer/flowplayer-3.2.10.min.js
 
   has_layout:     true
   layout:         layout

@@ -13,7 +13,7 @@
   <body>
     <div class="wrap">
       <div class="header">
-        <?php echo image_tag('general/logo.jpg')?>
+        <?php echo image_tag('general/logo.png')?>
       </div>
       
       <div class="content">

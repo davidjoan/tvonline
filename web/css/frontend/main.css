@@ -72,6 +72,7 @@ a:active {
 	border:0px solid blue;
 	clear:both;
 	min-height:10px;
+        text-align: center;
 	margin:0px auto 0px auto;
 }
 #centro {

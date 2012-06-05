@@ -123,7 +123,7 @@ abstract class BaseVideo extends DoctrineRecord
              'length' => 1,
              'fixed' => 1,
              'notnull' => true,
-             'default' => 'W',
+             'default' => 'F',
              ));
 
 
