@@ -3,7 +3,7 @@
 </a>
 
 <script>
-    flowplayer("splayer", "http://releases.flowplayer.org/swf/flowplayer-3.2.11.swf", {
+   /* flowplayer("splayer", "http://releases.flowplayer.org/swf/flowplayer-3.2.11.swf", {
  
     plugins: {
  
@@ -22,7 +22,7 @@
         provider: 'rtmp'
     }
  
-});
+});*/
 </script>
     
 

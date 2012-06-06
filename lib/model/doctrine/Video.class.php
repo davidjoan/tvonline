@@ -31,6 +31,12 @@ class Video extends BaseVideo
   	$actives = $this->getTable()->getNews();
   	return $actives[$this->getNew()];
   }  
+  
+  public function getLiveStr()
+  {  	
+  	$actives = $this->getTable()->getLives();
+  	return $actives[$this->getLive()];
+  }   
 
   public function getTypeStr()
   {  	
@@ -60,21 +66,6 @@ class Video extends BaseVideo
   public function save(Doctrine_Connection $conn = null)
   {
     parent::save($conn);
-  }
-  
-  public function setVideo($variable)
-  {
-      
-        $variable = str_replace('<br /><a href="http://www.ustream.tv/" style="padding: 2px 0px 4px; width: 400px; background: #ffffff; display: block; color: #000000; font-weight: normal; font-size: 10px; text-decoration: underline; text-align: center;" target="_blank">Broadcasting live with Ustream</a>', '', $variable);
-        $variable = str_replace('<br /><a href="http://www.ustream.tv/" style="padding: 2px 0px 4px; width: 400px; background: #ffffff; display: block; color: #000000; font-weight: normal; font-size: 10px; text-decoration: underline; text-align: center;" target="_blank">Streaming by Ustream</a>', '', $variable);
-        $variable = str_replace('<br /><a href="http://www.ustream.tv/facebook" style="padding: 2px 0px 4px; width: 400px; background: #ffffff; display: block; color: #000000; font-weight: normal; font-size: 10px; text-decoration: underline; text-align: center;" target="_blank">Live Video app for Facebook by Ustream</a>', '', $variable);
-        
-        $variable = preg_replace('/([Ww]idth="[0-9]{3}")/', 'width="320"', $variable);
-        $variable = preg_replace('/([Hh]eight="[0-9]{3}")/', 'height="309"', $variable);
-        $variable = preg_replace('/([Ww]idth: "[0-9]{3}px")/', 'width: 320px', $variable);
-        
-    $this->_set('video', $variable);
-      
   }
   
 

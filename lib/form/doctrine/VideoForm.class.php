@@ -14,15 +14,16 @@ class VideoForm extends BaseVideoForm
   {
     $this->labels = array
     (
-      'category_id' => 'Categoria',
-      'code'        => 'Codigo',
-      'image'       => 'Imagen',
-      'video'       => 'Video',
+      'category_id'   => 'Categoria',
+      'code'          => 'Codigo',
+      'image'         => 'Imagen',
+      'video'         => 'Video',
       'video_preview' => 'Vista Previa',
-      'time'        => 'Duración',
-      'new'         => 'Programación en Vivo',
-      'type'        => 'Formato',
-      'active'      => 'Activo'
+      'time'          => 'Duración',
+      'new'           => 'Video Nuevo',
+      'live'          => 'Programación en Vivo',
+      'type'          => 'Formato',
+      'active'        => 'Activo'
     );
   }
   public function configure()
@@ -68,10 +69,16 @@ class VideoForm extends BaseVideoForm
                                 )),
       'new'                  => new sfWidgetFormChoice(array
                                 (
-                                  'choices'          => $this->getTable()->getStatuss(),
+                                  'choices'          => $this->getTable()->getNews(),
                                   'expanded'         => true,
                                   'renderer_options' => array('formatter' => array($this->widgetFormatter, 'radioFormatter'))
-                                ))
+                                )),
+      'live'                  => new sfWidgetFormChoice(array
+                                (
+                                  'choices'          => $this->getTable()->getLives(),
+                                  'expanded'         => true,
+                                  'renderer_options' => array('formatter' => array($this->widgetFormatter, 'radioFormatter'))
+                                )),            
    ));
     
    $this->addValidators(array
@@ -93,8 +100,9 @@ class VideoForm extends BaseVideoForm
       'video'       => 'pass',
       'time'        => 'pass',
       'active'      => array('combo', array('choices' => array_keys($this->getTable()->getStatuss()))),
-      'new'         => array('combo', array('choices' => array_keys($this->getTable()->getStatuss()))),
+      'new'         => array('combo', array('choices' => array_keys($this->getTable()->getNews()))),
       'type'        => array('combo', array('choices' => array_keys($this->getTable()->getTypes()))),
+      'live'       => array('combo', array('choices' => array_keys($this->getTable()->getLives()))),
       'created_at'  => '-',
       'updated_at'  => '-',
       'slug'        => '-',
@@ -102,6 +110,16 @@ class VideoForm extends BaseVideoForm
       'updated_by'  => '-',
       'video_preview' => 'pass'
     );
+    
+    $this->setDefault('new', '1');
+    
+    $this->setDefault('live', '0');
+    
+    $this->setDefault('active', '1');
+    
+    $this->widgetSchema->setHelp('video' , 'Formato: [nombre video].mp4');
+    
+    $this->widgetSchema->setHelp('time' , 'Formato: [mm]:[ss]');
     
     $this->embedI18n(array('es'));
     $this->widgetSchema->setLabel('es', 'Spanish');

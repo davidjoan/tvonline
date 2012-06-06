@@ -2,13 +2,13 @@ Category:
   Category_1:
     Translation:
       es:
-        name: Raiz
+        name: "Novedades"
         description: '<p></p>'
       en:
-        name: Root
+        name: "News"
         description: '<p></p>'
       pt:
-        name: Root
+        name: "Novo"
         description: '<p></p>'
     active: '1'
     rank: 1
@@ -150,8 +150,6 @@ Video:
     image: c284e967116f77b33a162e0c7df996cbf5e48d56.jpg
     video: video_1.mp4
     time: '05:00'
-    new: '1'
-    active: '1'
     created_by: '1'
   Video_2:
     Translation:
@@ -166,8 +164,6 @@ Video:
     image: 3223f68d53d998b2cb72b47737148a04d05bb7fc.jpg
     video: 'vide_2.mp4'
     time: '05:00'
-    new: '1'
-    active: '1'
     created_by: '1' 
   Video_3:
     Translation:
@@ -182,8 +178,6 @@ Video:
     image: 29896d6c20a860aeb12db11bc9da304fc19cf3ef.jpg
     video: video_3.mp4
     time: '05:00'
-    new: '1'
-    active: '1'
     created_by: '1'
   Video_4:
     Translation:
@@ -198,8 +192,6 @@ Video:
     image: 29896d6c20a860aeb12db11bc9da304fc19cf3ef.jpg
     video: video_4.mp4
     time: '05:00'
-    new: '1'
-    active: '1'
     created_by: '1'    
   Video_5:
     Translation:
@@ -214,8 +206,6 @@ Video:
     image: c284e967116f77b33a162e0c7df996cbf5e48d56.jpg
     video: video_1.mp4
     time: '05:00'
-    new: '1'
-    active: '1'
     created_by: '1'
   Video_6:
     Translation:
@@ -230,8 +220,6 @@ Video:
     image: 3223f68d53d998b2cb72b47737148a04d05bb7fc.jpg
     video: 'video_2.mp4'
     time: '05:00'
-    new: '1'
-    active: '1'
     created_by: '1' 
   Video_7:
     Translation:
@@ -246,8 +234,6 @@ Video:
     image: 29896d6c20a860aeb12db11bc9da304fc19cf3ef.jpg
     video: video_3.mp4
     time: '05:00'
-    new: '1'
-    active: '1'
     created_by: '1'
   Video_8:
     Translation:
@@ -262,8 +248,6 @@ Video:
     image: 29896d6c20a860aeb12db11bc9da304fc19cf3ef.jpg
     video: video_4.mp4
     time: '05:00'
-    new: '1'
-    active: '1'
     created_by: '1'
   Video_9:
     Translation:
@@ -278,8 +262,6 @@ Video:
     image: c284e967116f77b33a162e0c7df996cbf5e48d56.jpg
     video: video_1.mp4
     time: '05:00'
-    new: '1'
-    active: '1'
     created_by: '1'
   Video_10:
     Translation:
@@ -294,8 +276,6 @@ Video:
     image: 3223f68d53d998b2cb72b47737148a04d05bb7fc.jpg
     video: 'video_2.mp4'
     time: '05:00'
-    new: '1'
-    active: '1'
     created_by: '1' 
   Video_11:
     Translation:
@@ -310,8 +290,6 @@ Video:
     image: 29896d6c20a860aeb12db11bc9da304fc19cf3ef.jpg
     video: video_3.mp4
     time: '05:10'
-    new: '1'
-    active: '1'
     created_by: '1'
   Video_12:
     Translation:
@@ -326,6 +304,4 @@ Video:
     image: 29896d6c20a860aeb12db11bc9da304fc19cf3ef.jpg
     video: video_4.mp4
     time: '05:20'
-    new: '1'
-    active: '1'
     created_by: '1'            

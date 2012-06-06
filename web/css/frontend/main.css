@@ -61,14 +61,15 @@ a:active {
 	clear:both;
 }
 .fondo {
-	background-image:url(../../images/frontend/fdo.jpg);
+	background-image:url("../../images/frontend/fdo.jpg");
 	background-repeat:no-repeat;
 	width:1003px;
 	min-height:605px;
 	margin:0px auto 0px auto;
 }
 #centro, #header, #footer {
-	width:889px;
+	width:989px;
+        padding-top: 5px;
 	border:0px solid blue;
 	clear:both;
 	min-height:10px;
@@ -83,17 +84,16 @@ a:active {
 	margin:54px 0px 0px 32px;
 }
 #logo {
-	background-image:url(../../images/frontend/logo.png);
-	background-repeat:no-repeat;
+
 	width:380px;
 	min-height:66px;
-	margin-left:142px;
+	margin-left:183px;
 }
 #header {
-	min-height:82px;
+	min-height:70px;
 }
 .cajaizq {
-	width:143px;
+	width:193px;
 	min-height:10px;
 	background-color:#000;
 	border:1px solid #666;
@@ -113,7 +113,7 @@ a:active {
 }
 
 #ban1 {
-	min-height:90px;
+	height:320px;
 	margin-bottom:8px;
 }
 #ban2 {
@@ -151,7 +151,11 @@ a:active {
 	background-color:#000;
 	margin:0px 6px 0px 6px;
 }
-#colorinchis{ margin:0px auto 0px auto; width: -moz-max-content;}
+#colorinchis{ margin:0px auto 0px auto; margin-left: 50px; margin-right: 50px; }
+
+#videos{ margin:0px auto 0px auto; margin-left: 50px; margin-right: 50px; }
+
+#novedades{ margin-top: -10px; }
 
 .redondo {
     -moz-border-radius: 10px;
@@ -177,6 +181,8 @@ a:active {
     color: red;
     font-size: medium;
     margin: 8px 15px 5px;
+    width: 125px;
+    position: static;
 }
 .txtfdocolor1 {
     background-image: url("../../images/frontend/btons_03.png");

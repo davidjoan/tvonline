@@ -4,7 +4,7 @@
 # default values
 all:
   site: "Peru TV Online"
-  root: "Raiz"
+  root: "Novedades"
   video:
     width: 600px
     height: 320px

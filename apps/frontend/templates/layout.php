@@ -37,17 +37,17 @@
                     <?php include_partial('General/social') ?>
 
                     <div class="breaker"></div>
+                    
                     <div id="novedades" class="alpha60">
                         <?php include_partial('General/menu') ?>
 
                         <div id="videos">
-                            <?php echo $sf_content ?>
-
-
+                            <?php echo $sf_content; ?>
                         </div>
+                        
                     </div>
                 </div>
-                <?php include_partial('General/footer') ?>
+                <?php //include_partial('General/footer') ?>
             </div>
         </div>
     </body>

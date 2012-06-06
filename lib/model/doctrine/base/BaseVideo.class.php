@@ -109,14 +109,14 @@ abstract class BaseVideo extends DoctrineRecord
              'length' => 1,
              'fixed' => 1,
              'notnull' => true,
-             'default' => 0,
+             'default' => 1,
              ));
         $this->hasColumn('active', 'string', 1, array(
              'type' => 'string',
              'length' => 1,
              'fixed' => 1,
              'notnull' => true,
-             'default' => 0,
+             'default' => 1,
              ));
         $this->hasColumn('type', 'string', 1, array(
              'type' => 'string',

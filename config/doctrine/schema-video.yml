@@ -27,8 +27,8 @@ Video:
     video:                             { type: string   , length: 4000                  , notnull: false                                                       } 
     time:                              { type: string   , length: 10                    , notnull: false                                                       }
     live:                              { type: string   , length: 1  , fixed: true      , notnull: true , default: 0                                           }
-    new:                               { type: string   , length: 1  , fixed: true      , notnull: true , default: 0                                           }
-    active:                            { type: string   , length: 1  , fixed: true      , notnull: true , default: 0                                           }
+    new:                               { type: string   , length: 1  , fixed: true      , notnull: true , default: 1                                           }
+    active:                            { type: string   , length: 1  , fixed: true      , notnull: true , default: 1                                           }
     type:                              { type: string   , length: 1  , fixed: true      , notnull: true , default: 'F'                                         }
   indexes:
     i_active:                          { fields: [ active ]                                                                                                    }

@@ -58,6 +58,18 @@ class VideoTable extends DoctrineTable
     return self::$news;
   }
   
+    protected static
+    $lives                 = array
+                             (
+                               '1'     => 'Si',
+                               '0'     => 'No'
+                             );
+
+  public function getLives()
+  {
+    return self::$lives;
+  }  
+  
   public function getPathDir()
   {
     return sfConfig::get('app_video_images_dir');
@@ -84,7 +96,7 @@ class VideoTable extends DoctrineTable
              ->addWhere('t.lang = ?', $lang)
             ->addWhere('v.type <> ?', 'V');
          
-    if($category_id <> '')
+    if($category_id <> 1)
     {
       $q->addWhere('v.category_id = ?', $category_id);
     }

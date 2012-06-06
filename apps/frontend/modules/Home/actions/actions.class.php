@@ -18,8 +18,13 @@ class HomeActions extends ActionsProject
   public function executeShow(sfWebRequest $request)
   {
   	Doctrine::getTable('Visit')->createAndSave($request->getPathInfoArray());
-        $category = $request->getParameter('category');
-  	$this->videos = Doctrine::getTable('Video')->getVideos($category);
+        
+        $this->category_id = $request->getParameter('category');
+        
+        $this->category_id = ($this->category_id == "")? 1 : $this->category_id;
+        
+        $this->category = Doctrine::getTable("Category")->findOneById($this->category_id);
+  	$this->videos = Doctrine::getTable('Video')->getVideos($this->category_id);
   }
   
   public function executeLoad(sfWebRequest $request)
@@ -28,7 +33,7 @@ class HomeActions extends ActionsProject
       $this->videos = Doctrine::getTable('Video')->getVideos($category);
   }
   
-    public function executeCategory(sfWebRequest $request)
+  public function executeCategory(sfWebRequest $request)
   {
       $this->category_id = $request->getPostParameter('category');
       $this->category    = Doctrine::getTable('Category')->findOneById($this->category_id);
