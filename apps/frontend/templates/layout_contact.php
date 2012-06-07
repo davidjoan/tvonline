@@ -1,43 +1,32 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-  <head>
-    <?php include_http_metas() ?>
-    <?php include_metas() ?>
-    <?php include_title() ?>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <?php include_stylesheets() ?>
-    <?php include_javascripts() ?>
-    <!-- Required CSS -->
-  <link type="text/css" href="/css/frontend/jquery/movingboxes.css" media="screen" charset="utf-8" rel="stylesheet"  />
-  <!--[if lt IE 9]>
-  <link type="text/css" href="/css/frontend/jquery/movingboxes-ie.css" rel="stylesheet" media="screen" />
-  <![endif]-->
-  
-    <style>			
-body {
-background-color: #000023;
-}
-</style>
-  
-  </head>     
-  
-<body leftmargin="0" topmargin="0">
-<table width="400" height="250" border="0" cellpadding="0" cellspacing="0">
-  <tr>
-    <td align="center" valign="top" background="/images/frontend/miolo.jpg">
-      <table width="380" border="0" cellpadding="0" cellspacing="0">
-      <tr>
-        <td height="60" align="left"><img src="/images/frontend/logo.gif" width="230" height="48" /></td>
-      </tr>
-      <tr>
-        <td align="center">
-        <?php echo $sf_content ?>
-        </td>
-      </tr>
-    </table>
+<!doctype html>
+<html lang=es>  
+    <head>
+        <?php include_http_metas() ?>
+        <?php include_metas() ?>
+        <?php include_title() ?>
+        <?php include_javascripts() ?>
+        <?php include_stylesheets() ?>
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="/skins/tango/skin.css" />
+        <script type="text/javascript">
+            jQuery(document).ready(function() {
+                jQuery('#mycarousel').jcarousel({
+                    wrap: 'circular'
+                });
+            });
+        </script>
+    </head>    
 
-    </td>
-  </tr>
-</table>
-</body>
+    <body>
+        <div class="todo">
+
+            <div>
+                <div>
+                    <?php echo link_to(image_tag('frontend/logo', array('border' => 0, 'width' => 380, 'height' => 66, 'alt' => 'Perú TV Online')), '@homepage?sf_culture=' . $sf_user->getCulture()); ?>
+
+                </div>            
+                <?php echo $sf_content ?>
+            </div>
+
+    </body>
 </html>

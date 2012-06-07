@@ -1,18 +1,32 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html lang=es>
     <head>
         <?php include_http_metas() ?>
         <?php include_metas() ?>
         <?php include_title() ?>
         <?php include_javascripts() ?>
         <?php include_stylesheets() ?>
-        <link rel="shortcut icon" href="/favicon.gif" />
+        <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="stylesheet" type="text/css" href="/skins/tango/skin.css" />
+        <link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
+        <script src="http://vjs.zencdn.net/c/video.js"></script>
+
+
         <script type="text/javascript">
             jQuery(document).ready(function() {
                 jQuery('#mycarousel').jcarousel({
                     wrap: 'circular'
                 });
+                
+                $("#contact").fancybox({
+		'transitionIn'		: 'none',
+		'transitionOut'		: 'none',
+		'autoScale'     	: false,
+		'type'			: 'iframe',
+		'width'			: 400,
+		'height'		: 400,
+		'scrolling'   		: 'no'
+	});
             });
         </script>
     </head>
@@ -47,7 +61,7 @@
                         
                     </div>
                 </div>
-                <?php //include_partial('General/footer') ?>
+                <?php include_partial('General/footer') ?>
             </div>
         </div>
     </body>

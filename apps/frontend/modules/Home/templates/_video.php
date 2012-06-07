@@ -1,7 +1,14 @@
-<a id="splayer" href="http://724378576.r.cdnstreaming.net/video_2.mp4.smil"
+<video id="my_video_1" class="video-js vjs-default-skin" controls
+  preload="auto" width="586" height="323"
+  data-setup='{ "controls": true, "autoplay": true, "preload": "auto" }'>
+  <source src="http://724378576.r.cdnstreaming.net/video_1.mp4" type='video/mp4'>
+</video>
+
+
+<!--<a id="splayer" href="http://724378576.r.cdnstreaming.net/video_2.mp4.smil"
     style="display:block;width:586px;height:323px;"> 
 </a>
-
+-->
 <script>
    /* flowplayer("splayer", "http://releases.flowplayer.org/swf/flowplayer-3.2.11.swf", {
  

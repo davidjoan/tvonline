@@ -3,9 +3,6 @@
 
 # default values
 all:
-  video:        true
-  video_asx:    http://www.perutvonline.com/uploads/video/
-  video_stream: http://journal.interrogacaodigital.net/journalaovivo/
   contact_form:
     ## Put here your email address. This email will receive the message from contact form
     email:         new.skin007@gmail.com         
@@ -22,7 +19,8 @@ all:
  
     ## put here the absolute image path
     ## example: http://localhost/yourproject/web/index.php/contact/image
-    image_path:   http://www.perutvonline.com/es/imagen
+    ##image_path:   http://www.perutvonline.com/es/imagen
+    image_path:   http://localhost:9099/frontend_dev.php/es/imagen
  
     ## legend your form
     legend:       Please, fill the fields and send us a message 
