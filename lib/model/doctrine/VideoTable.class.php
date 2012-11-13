@@ -130,7 +130,9 @@ class VideoTable extends DoctrineTable {
                 ->leftJoin('v.Translation t')
                 ->leftJoin('v.Category c')
                 ->leftJoin('c.Translation t1')
-                ->andWhere('v.active = ?', 1)                
+                ->andWhere('v.active = ?', 1) 
+                ->andWhereIn('v.type', array('F', 'V'))
+                ->andWhere('v.live = 0')
                 ->addWhere('t.lang = ?', 'es');
     }
 }

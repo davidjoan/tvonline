@@ -12,8 +12,8 @@ $i = 0; ?>
   {
      "id" : "<?php echo $obj->getId();?>",
     "name" : "<?php echo $obj->getNameStr();?>",
-    "slug" : "<?php echo $obj->getSlug();?>",
-    "active" : "<?php echo $obj->getActiveStr();?>"
+    "image" : "<?php echo $obj->getImage();?>",
+    "slug" : "<?php echo $obj->getSlug();?>"
   }<?php echo ($count == $i ? '' : ','); ?>
 <?php endforeach; ?>
 ]}

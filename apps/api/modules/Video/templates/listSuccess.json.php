@@ -13,13 +13,10 @@ $i = 0; ?>
     "id" : "<?php echo $obj->getId();?>",
     "title" : "<?php echo $obj->getTitleStr();?>",
     "category" : "<?php echo $obj->getCategoryName(); ?>",
-    "time" : "<?php echo $obj->getTime();?>",
+    "time" : "<?php echo ($obj->getTime() == "")?'100.000': $obj->getTime();?>",
     "video" : "<?php echo $obj->getVideo();?>",
     "image" : "<?php echo $obj->getImage();?>",
-    "new" : "<?php echo $obj->getNewStr();?>",
-    "live" : "<?php echo $obj->getLiveStr();?>",
-    "slug" : "<?php echo $obj->getSlug();?>",
-    "active" : "<?php echo $obj->getActiveStr();?>"
+    "slug" : "<?php echo $obj->getSlug();?>"
   }<?php echo ($count == $i ? '' : ','); ?>
 <?php endforeach; ?>
 ]}

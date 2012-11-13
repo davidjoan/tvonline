@@ -1,307 +1,307 @@
-Category:
-  Category_1:
-    Translation:
-      es:
-        name: "Novedades"
-        description: '<p></p>'
-      en:
-        name: "News"
-        description: '<p></p>'
-      pt:
-        name: "Novo"
-        description: '<p></p>'
-    active: '1'
-    rank: 1
-    created_by: '1'
-    updated_by: admin 
-    children:
-      Category_2:
-        Translation:
-          en:
-            name: Tourism
-            description: '<p></p>'
-          es:
-            name: Turismo
-            description: '<p></p>'
-          pt:
-            name: Turismo
-            description: '<p></p>'
-        active: '1'
-        rank: 4
-        created_by: '1'
-        updated_by: admin    
-      Category_3:
-        Translation:
-          en:
-            name: Publicity
-            description: '<p></p>'
-          es:
-            name: Publicidad
-            description: '<p></p>'
-          pt:
-            name: Publicidade
-            description: '<p></p>'
-        active: '1'
-        rank: 10
-        created_by: '1'
-        updated_by: admin
-      Category_4:
-        Translation:
-          es:
-            name: Entretenimiento
-            description: '<p></p>'          
-          en:
-            name: Entertaiment
-            description: '<p></p>'
-          pt:
-            name: Entretenimento
-            description: '<p></p>'
-        active: '1'
-        rank: 9
-        created_by: '1'
-        updated_by: admin
-      Category_5:
-        Translation:
-          es:
-            name: 'Cine'
-            description: '<p></p>'          
-          en:
-            name: 'Films'
-            description: '<p></p>'
-          pt:
-            name: 'Cinema'
-            description: '<p></p>'
-        active: '1'
-        rank: 6
-        created_by: '1'
-        updated_by: admin       
-      Category_7:
-        Translation:
-          es:
-            name: 'Interés'
-            description: '<p></p>'          
-          en:
-            name: 'Interes'
-            description: '<p></p>'
-          pt:
-            name: 'Interese'
-            description: '<p></p>'
-        active: '1'
-        rank: 8
-        created_by: '1'
-        updated_by: admin
-      Category_8:
-        Translation:
-          es:
-            name: 'Empresas'
-            description: '<p></p>'          
-          en:
-            name: 'Companies'
-            description: '<p></p>'
-          pt:
-            name: 'Empresas'
-            description: '<p></p>'
-        active: '1'
-        rank: 3
-        created_by: '1'
-        updated_by: admin
-      Category_10:
-        Translation:
-          es:
-            name: 'Cultura'
-            description: '<p></p>'          
-          en:
-            name: 'Culture'
-            description: '<p></p>'
-          pt:
-            name: 'Cultura'
-            description: '<p</p>'
-        active: '1'
-        rank: 5
-        created_by: '1'
-        updated_by: admin
-      Category_11:
-        Translation:
-          es:
-            name: 'Noticias'
-            description: '<p></p>'          
-          en:
-            name: 'News'
-            description: '<p></p>'
-          pt:
-            name: Noticiário
-            description: '<p></p>'
-        active: '1'
-        rank: 7
-        created_by: '1'
-        updated_by: admin
-        
-Video:
-  Video_1:
-    Translation:
-      es:
-        title: 'video 1'
-      en:
-        title: 'video 1'
-      pt:
-        title: 'video 1'
-    Category: Category_2
-    code: '00001000'
-    image: c284e967116f77b33a162e0c7df996cbf5e48d56.jpg
-    video: video_1.mp4
-    time: '05:00'
-    created_by: '1'
-  Video_2:
-    Translation:
-      es:
-        title: 'video 2'          
-      en:
-        title: 'video 2'  
-      pt:
-        title: 'video 2'
-    Category: Category_11
-    code: '00001001'
-    image: 3223f68d53d998b2cb72b47737148a04d05bb7fc.jpg
-    video: 'vide_2.mp4'
-    time: '05:00'
-    created_by: '1' 
-  Video_3:
-    Translation:
-      es:
-        title: 'video 3'          
-      en:
-        title: 'video 3'  
-      pt:
-        title: 'video 3'
-    Category: Category_2
-    code: '00001002'
-    image: 29896d6c20a860aeb12db11bc9da304fc19cf3ef.jpg
-    video: video_3.mp4
-    time: '05:00'
-    created_by: '1'
-  Video_4:
-    Translation:
-      es:
-        title: 'video 4'          
-      en:
-        title: 'video 4'  
-      pt:
-        title: 'video 4'
-    Category: Category_2
-    code: '00001002'
-    image: 29896d6c20a860aeb12db11bc9da304fc19cf3ef.jpg
-    video: video_4.mp4
-    time: '05:00'
-    created_by: '1'    
-  Video_5:
-    Translation:
-      es:
-        title: 'video 5'
-      en:
-        title: 'video 5'
-      pt:
-        title: 'video 5'
-    Category: Category_2
-    code: '00001000'
-    image: c284e967116f77b33a162e0c7df996cbf5e48d56.jpg
-    video: video_1.mp4
-    time: '05:00'
-    created_by: '1'
-  Video_6:
-    Translation:
-      es:
-        title: 'video 6'
-      en:
-        title: 'video 6'
-      pt:
-        title: 'video 6'
-    Category: Category_11
-    code: '00001001'
-    image: 3223f68d53d998b2cb72b47737148a04d05bb7fc.jpg
-    video: 'video_2.mp4'
-    time: '05:00'
-    created_by: '1' 
-  Video_7:
-    Translation:
-      es:
-        title: 'video 7'
-      en:
-        title: 'video 7'  
-      pt:
-        title: 'video 7'
-    Category: Category_2
-    code: '00001002'
-    image: 29896d6c20a860aeb12db11bc9da304fc19cf3ef.jpg
-    video: video_3.mp4
-    time: '05:00'
-    created_by: '1'
-  Video_8:
-    Translation:
-      es:
-        title: 'video 8'
-      en:
-        title: 'video 8'  
-      pt:
-        title: 'video 8'
-    Category: Category_2
-    code: '00001002'
-    image: 29896d6c20a860aeb12db11bc9da304fc19cf3ef.jpg
-    video: video_4.mp4
-    time: '05:00'
-    created_by: '1'
-  Video_9:
-    Translation:
-      es:
-        title: 'video 9'
-      en:
-        title: 'video 9'
-      pt:
-        title: 'video 9'
-    Category: Category_2
-    code: '00001000'
-    image: c284e967116f77b33a162e0c7df996cbf5e48d56.jpg
-    video: video_1.mp4
-    time: '05:00'
-    created_by: '1'
-  Video_10:
-    Translation:
-      es:
-        title: 'video 10'
-      en:
-        title: 'video 10'
-      pt:
-        title: 'video 10'
-    Category: Category_11
-    code: '00001001'
-    image: 3223f68d53d998b2cb72b47737148a04d05bb7fc.jpg
-    video: 'video_2.mp4'
-    time: '05:00'
-    created_by: '1' 
-  Video_11:
-    Translation:
-      es:
-        title: 'video 11'
-      en:
-        title: 'video 11'  
-      pt:
-        title: 'video 11'
-    Category: Category_2
-    code: '00001002'
-    image: 29896d6c20a860aeb12db11bc9da304fc19cf3ef.jpg
-    video: video_3.mp4
-    time: '05:10'
-    created_by: '1'
-  Video_12:
-    Translation:
-      es:
-        title: 'video 12'
-      en:
-        title: 'video 12'  
-      pt:
-        title: 'video 12'
-    Category: Category_2
-    code: '00001002'
-    image: 29896d6c20a860aeb12db11bc9da304fc19cf3ef.jpg
-    video: video_4.mp4
-    time: '05:20'
-    created_by: '1'            
+#Category:
+#  Category_1:
+#    Translation:
+#      es:
+#        name: "Novedades"
+#        description: '<p></p>'
+#      en:
+#        name: "News"
+#        description: '<p></p>'
+#      pt:
+#        name: "Novo"
+#        description: '<p></p>'
+#    active: '1'
+#    rank: 1
+#    created_by: '1'
+#    updated_by: admin 
+#    children:
+#      Category_2:
+#        Translation:
+#          en:
+#            name: Tourism
+#            description: '<p></p>'
+#          es:
+#            name: Turismo
+#            description: '<p></p>'
+#          pt:
+#            name: Turismo
+#            description: '<p></p>'
+#        active: '1'
+#        rank: 4
+#        created_by: '1'
+#        updated_by: admin    
+#      Category_3:
+#        Translation:
+#          en:
+#            name: Publicity
+#            description: '<p></p>'
+#          es:
+#            name: Publicidad
+#            description: '<p></p>'
+#          pt:
+#            name: Publicidade
+#            description: '<p></p>'
+#        active: '1'
+#        rank: 10
+#        created_by: '1'
+#        updated_by: admin
+#      Category_4:
+#        Translation:
+#          es:
+#            name: Entretenimiento
+#            description: '<p></p>'          
+#          en:
+#            name: Entertaiment
+#            description: '<p></p>'
+#          pt:
+#            name: Entretenimento
+#            description: '<p></p>'
+#        active: '1'
+#        rank: 9
+#        created_by: '1'
+#        updated_by: admin
+#      Category_5:
+#        Translation:
+#          es:
+#            name: 'Cine'
+#            description: '<p></p>'          
+#          en:
+#            name: 'Films'
+#            description: '<p></p>'
+#          pt:
+#            name: 'Cinema'
+#            description: '<p></p>'
+#        active: '1'
+#        rank: 6
+#        created_by: '1'
+#        updated_by: admin       
+#      Category_7:
+#        Translation:
+#          es:
+#            name: 'Interés'
+#            description: '<p></p>'          
+#          en:
+#            name: 'Interes'
+#            description: '<p></p>'
+#          pt:
+#            name: 'Interese'
+#            description: '<p></p>'
+#        active: '1'
+#        rank: 8
+#        created_by: '1'
+#        updated_by: admin
+#      Category_8:
+#        Translation:
+#          es:
+#            name: 'Empresas'
+#            description: '<p></p>'          
+#          en:
+#            name: 'Companies'
+#            description: '<p></p>'
+#          pt:
+#            name: 'Empresas'
+#            description: '<p></p>'
+#        active: '1'
+#        rank: 3
+#        created_by: '1'
+#        updated_by: admin
+#      Category_10:
+#        Translation:
+#          es:
+#            name: 'Cultura'
+#            description: '<p></p>'          
+#          en:
+#            name: 'Culture'
+#            description: '<p></p>'
+#          pt:
+#            name: 'Cultura'
+#            description: '<p</p>'
+#        active: '1'
+#        rank: 5
+#        created_by: '1'
+#        updated_by: admin
+#      Category_11:
+#        Translation:
+#          es:
+#            name: 'Noticias'
+#            description: '<p></p>'          
+#          en:
+#            name: 'News'
+#            description: '<p></p>'
+#          pt:
+#            name: Noticiário
+#            description: '<p></p>'
+#        active: '1'
+#        rank: 7
+#        created_by: '1'
+#        updated_by: admin
+#        
+#Video:
+#  Video_1:
+#    Translation:
+#      es:
+#        title: 'video 1'
+#      en:
+#        title: 'video 1'
+#      pt:
+#        title: 'video 1'
+#    Category: Category_2
+#    code: '00001000'
+#    image: c284e967116f77b33a162e0c7df996cbf5e48d56.jpg
+#    video: video_1.mp4
+#    time: '05:00'
+#    created_by: '1'
+#  Video_2:
+#    Translation:
+#      es:
+#        title: 'video 2'          
+#      en:
+#        title: 'video 2'  
+#      pt:
+#        title: 'video 2'
+#    Category: Category_11
+#    code: '00001001'
+#    image: 3223f68d53d998b2cb72b47737148a04d05bb7fc.jpg
+#    video: 'vide_2.mp4'
+#    time: '05:00'
+#    created_by: '1' 
+#  Video_3:
+#    Translation:
+#      es:
+#        title: 'video 3'          
+#      en:
+#        title: 'video 3'  
+#      pt:
+#        title: 'video 3'
+#    Category: Category_2
+#    code: '00001002'
+#    image: 29896d6c20a860aeb12db11bc9da304fc19cf3ef.jpg
+#    video: video_3.mp4
+#    time: '05:00'
+#    created_by: '1'
+#  Video_4:
+#    Translation:
+#      es:
+#        title: 'video 4'          
+#      en:
+#        title: 'video 4'  
+#      pt:
+#        title: 'video 4'
+#    Category: Category_2
+#    code: '00001002'
+#    image: 29896d6c20a860aeb12db11bc9da304fc19cf3ef.jpg
+#    video: video_4.mp4
+#    time: '05:00'
+#    created_by: '1'    
+#  Video_5:
+#    Translation:
+#      es:
+#        title: 'video 5'
+#      en:
+#        title: 'video 5'
+#      pt:
+#        title: 'video 5'
+#    Category: Category_2
+#    code: '00001000'
+#    image: c284e967116f77b33a162e0c7df996cbf5e48d56.jpg
+#    video: video_1.mp4
+#    time: '05:00'
+#    created_by: '1'
+#  Video_6:
+#    Translation:
+#      es:
+#        title: 'video 6'
+#      en:
+#        title: 'video 6'
+#      pt:
+#        title: 'video 6'
+#    Category: Category_11
+#    code: '00001001'
+#    image: 3223f68d53d998b2cb72b47737148a04d05bb7fc.jpg
+#    video: 'video_2.mp4'
+#    time: '05:00'
+#    created_by: '1' 
+#  Video_7:
+#    Translation:
+#      es:
+#        title: 'video 7'
+#      en:
+#        title: 'video 7'  
+#      pt:
+#        title: 'video 7'
+#    Category: Category_2
+#    code: '00001002'
+#    image: 29896d6c20a860aeb12db11bc9da304fc19cf3ef.jpg
+#    video: video_3.mp4
+#    time: '05:00'
+#    created_by: '1'
+#  Video_8:
+#    Translation:
+#      es:
+#        title: 'video 8'
+#      en:
+#        title: 'video 8'  
+#      pt:
+#        title: 'video 8'
+#    Category: Category_2
+#    code: '00001002'
+#    image: 29896d6c20a860aeb12db11bc9da304fc19cf3ef.jpg
+#    video: video_4.mp4
+#    time: '05:00'
+#    created_by: '1'
+#  Video_9:
+#    Translation:
+#      es:
+#        title: 'video 9'
+#      en:
+#        title: 'video 9'
+#      pt:
+#        title: 'video 9'
+#    Category: Category_2
+#    code: '00001000'
+#    image: c284e967116f77b33a162e0c7df996cbf5e48d56.jpg
+#    video: video_1.mp4
+#    time: '05:00'
+#    created_by: '1'
+#  Video_10:
+#    Translation:
+#      es:
+#        title: 'video 10'
+#      en:
+#        title: 'video 10'
+#      pt:
+#        title: 'video 10'
+#    Category: Category_11
+#    code: '00001001'
+#    image: 3223f68d53d998b2cb72b47737148a04d05bb7fc.jpg
+#    video: 'video_2.mp4'
+#    time: '05:00'
+#    created_by: '1' 
+#  Video_11:
+#    Translation:
+#      es:
+#        title: 'video 11'
+#      en:
+#        title: 'video 11'  
+#      pt:
+#        title: 'video 11'
+#    Category: Category_2
+#    code: '00001002'
+#    image: 29896d6c20a860aeb12db11bc9da304fc19cf3ef.jpg
+#    video: video_3.mp4
+#    time: '05:10'
+#    created_by: '1'
+#  Video_12:
+#    Translation:
+#      es:
+#        title: 'video 12'
+#      en:
+#        title: 'video 12'  
+#      pt:
+#        title: 'video 12'
+#    Category: Category_2
+#    code: '00001002'
+#    image: 29896d6c20a860aeb12db11bc9da304fc19cf3ef.jpg
+#    video: video_4.mp4
+#    time: '05:20'
+#    created_by: '1'            

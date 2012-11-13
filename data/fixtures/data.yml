@@ -1,0 +1,1112 @@
+Category:
+  Category_1:
+    rank: '1'
+    image: null
+    active: '1'
+    root_id: '1'
+    lft: '1'
+    rgt: '18'
+    level: '0'
+    created_by: '1'
+    updated_by: null
+    created_at: '2012-06-06 22:22:29'
+    updated_at: '2012-11-02 10:07:44'
+  Category_2:
+    rank: '3'
+    image: null
+    active: '1'
+    root_id: '1'
+    lft: '14'
+    rgt: '15'
+    level: '1'
+    created_by: '1'
+    updated_by: cabeza1
+    created_at: '2012-06-06 22:22:30'
+    updated_at: '2012-11-02 10:03:56'
+  Category_3:
+    rank: '4'
+    image: null
+    active: '0'
+    root_id: '1'
+    lft: '12'
+    rgt: '13'
+    level: '1'
+    created_by: '1'
+    updated_by: admin
+    created_at: '2012-06-06 22:22:30'
+    updated_at: '2012-07-16 12:45:25'
+  Category_6:
+    rank: '9'
+    image: null
+    active: '1'
+    root_id: '1'
+    lft: '8'
+    rgt: '9'
+    level: '1'
+    created_by: '1'
+    updated_by: admin
+    created_at: '2012-06-06 22:22:30'
+    updated_at: '2012-07-16 12:45:25'
+  Category_7:
+    rank: '8'
+    image: null
+    active: '1'
+    root_id: '1'
+    lft: '6'
+    rgt: '7'
+    level: '1'
+    created_by: '1'
+    updated_by: admin
+    created_at: '2012-06-06 22:22:30'
+    updated_at: '2012-07-16 12:45:06'
+  Category_8:
+    rank: '10'
+    image: null
+    active: '1'
+    root_id: '1'
+    lft: '4'
+    rgt: '5'
+    level: '1'
+    created_by: '1'
+    updated_by: admin
+    created_at: '2012-06-06 22:22:31'
+    updated_at: '2012-07-16 12:45:06'
+  Category_9:
+    rank: '7'
+    image: null
+    active: '1'
+    root_id: '1'
+    lft: '2'
+    rgt: '3'
+    level: '1'
+    created_by: '1'
+    updated_by: admin
+    created_at: '2012-06-06 22:22:31'
+    updated_at: '2012-07-16 12:45:06'
+  Category_10:
+    rank: '11'
+    image: null
+    active: '1'
+    root_id: '1'
+    lft: '10'
+    rgt: '11'
+    level: '1'
+    created_by: '1'
+    updated_by: admin
+    created_at: '2012-06-19 20:34:27'
+    updated_at: '2012-07-16 12:45:25'
+  Category_11:
+    rank: '2'
+    image: null
+    active: '0'
+    root_id: '1'
+    lft: '16'
+    rgt: '17'
+    level: '1'
+    created_by: '1'
+    updated_by: admin
+    created_at: '2012-07-16 12:44:49'
+    updated_at: '2012-11-02 10:07:44'
+User:
+  User_1:
+    realname: 'David Tataje'
+    username: admin
+    password: 'admin'
+    email: djtm_rhcp@hotmail.com
+    url: 'http://www.perutvonline.com'
+    twitter_username: david.joan
+    phone: null
+    active: '1'
+    last_access_at: '2012-11-02 10:12:42'
+    slug: admin
+    created_at: '2010-05-02 01:39:30'
+    updated_at: '2012-11-02 10:12:42'
+  User_2:
+    realname: 'Hector Delgado'
+    username: cabeza1
+    password: 'cabeza1'
+    email: hd@journalcomm.net
+    url: null
+    twitter_username: null
+    phone: null
+    active: '1'
+    last_access_at: '2012-11-05 19:51:35'
+    slug: cabeza1
+    created_at: '2012-06-25 20:03:51'
+    updated_at: '2012-11-05 19:51:35'
+Video:
+  Video_13:
+    Category: Category_11
+    code: '00001003'
+    image: 2b3eb10527b99f37de50a991993b448d7617d72b.gif
+    video: '<iframe width="586" height="323" src="http://www.ustream.tv/embed/11194474?wmode=direct" scrolling="no" frameborder="0" style="border: 0px none transparent;"></iframe>'
+    time: '05:00'
+    live: '0'
+    new: '1'
+    active: '0'
+    type: E
+    created_at: '2012-06-11 18:44:01'
+    updated_at: '2012-08-23 17:53:27'
+    slug: '00001003'
+    created_by: '1'
+    updated_by: admin
+  Video_19:
+    Category: Category_6
+    code: '00001009'
+    image: da6922f9be6d92171935dff414746029f98b986b.jpg
+    video: agromar.mp4
+    time: '489.173'
+    live: '0'
+    new: '1'
+    active: '1'
+    type: F
+    created_at: '2012-06-19 21:20:49'
+    updated_at: '2012-07-23 12:03:19'
+    slug: '00001009'
+    created_by: '1'
+    updated_by: cabeza1
+  Video_24:
+    Category: Category_10
+    code: '00001014'
+    image: 449d82d63ad355703600ac7202670295dbb95623.jpg
+    video: quienes_somos.mp4
+    time: '72.917'
+    live: '0'
+    new: '1'
+    active: '1'
+    type: F
+    created_at: '2012-06-20 10:30:05'
+    updated_at: '2012-07-06 14:49:01'
+    slug: '00001014'
+    created_by: '1'
+    updated_by: cabeza1
+  Video_25:
+    Category: Category_10
+    code: '00001015'
+    image: 87433d9b355de106c3ff559ceb815a0d7d6c9e60.jpg
+    video: who_we_are.mp4
+    time: '79.018'
+    live: '0'
+    new: '1'
+    active: '1'
+    type: F
+    created_at: '2012-06-20 10:32:03'
+    updated_at: '2012-07-06 14:49:26'
+    slug: '00001015'
+    created_by: '1'
+    updated_by: cabeza1
+  Video_26:
+    Category: Category_10
+    code: '00001016'
+    image: 293dc571e352323169c18096766b71f1d68f37c8.jpg
+    video: tec.mp4
+    time: '101.546'
+    live: '0'
+    new: '1'
+    active: '1'
+    type: F
+    created_at: '2012-06-20 10:33:28'
+    updated_at: '2012-07-06 14:49:49'
+    slug: '00001016'
+    created_by: '1'
+    updated_by: cabeza1
+  Video_27:
+    Category: Category_8
+    code: '00001017'
+    image: 6187e960040ba33f516ea5e648067fa41055c90b.jpg
+    video: ecl.mp4
+    time: '20.906'
+    live: '0'
+    new: '1'
+    active: '1'
+    type: F
+    created_at: '2012-06-20 10:35:52'
+    updated_at: '2012-07-06 14:50:17'
+    slug: '00001017'
+    created_by: '1'
+    updated_by: cabeza1
+  Video_28:
+    Category: Category_8
+    code: '00001018'
+    image: e1dc61c96e5fddfc25e18313edf3b95a0a80f154.jpg
+    video: franca.mp4
+    time: '61.162'
+    live: '0'
+    new: '1'
+    active: '1'
+    type: F
+    created_at: '2012-06-20 10:36:18'
+    updated_at: '2012-07-06 14:50:39'
+    slug: '00001018'
+    created_by: '1'
+    updated_by: cabeza1
+  Video_29:
+    Category: Category_8
+    code: '00001019'
+    image: 1847377e8dc45d2997ba643f6889a35906359cce.jpg
+    video: tlc.mp4
+    time: '28.416'
+    live: '0'
+    new: '1'
+    active: '1'
+    type: F
+    created_at: '2012-06-20 10:37:14'
+    updated_at: '2012-07-06 16:01:33'
+    slug: '00001019'
+    created_by: '1'
+    updated_by: cabeza1
+  Video_30:
+    Category: Category_9
+    code: '00001020'
+    image: c3b325203263b9d3d08cc6114cb922cbcaeb6096.jpg
+    video: 19_calendario_turistico_julio.mp4
+    time: '155.2'
+    live: '1'
+    new: '1'
+    active: '1'
+    type: F
+    created_at: '2012-06-25 20:42:38'
+    updated_at: '2012-07-06 14:55:24'
+    slug: '00001020'
+    created_by: '2'
+    updated_by: cabeza1
+  Video_35:
+    Category: Category_7
+    code: '00001025'
+    image: 1e8cac56acf003242f0d3ff1b278059bf2c0ab5c.jpg
+    video: 05_mario_torres.mp4
+    time: '595.008'
+    live: '1'
+    new: '1'
+    active: '1'
+    type: F
+    created_at: '2012-06-26 00:12:47'
+    updated_at: '2012-07-06 14:56:47'
+    slug: '00001025'
+    created_by: '2'
+    updated_by: cabeza1
+  Video_53:
+    Category: Category_6
+    code: '00001042'
+    image: 185b156ecd74c90ff6ae22349a3441710a38d1f5.jpg
+    video: expoalimentaria.mp4
+    time: ''
+    live: '0'
+    new: '1'
+    active: '1'
+    type: F
+    created_at: '2012-07-17 21:13:04'
+    updated_at: '2012-07-17 21:13:04'
+    slug: '00001042'
+    created_by: '2'
+    updated_by: cabeza1
+  Video_54:
+    Category: Category_10
+    code: '00001043'
+    image: 36defd8bd5d6a2e57e7664e5362f5fdccc24c0a9.jpg
+    video: domingo_al_dia.mp4
+    time: ''
+    live: '0'
+    new: '1'
+    active: '1'
+    type: F
+    created_at: '2012-07-19 11:51:21'
+    updated_at: '2012-07-19 11:51:21'
+    slug: '00001043'
+    created_by: '2'
+    updated_by: cabeza1
+  Video_58:
+    Category: Category_7
+    code: '00001047'
+    image: 9ce6fa19cdba358653b0ea18ce28375f7c8fba75.jpg
+    video: 09_jorge_chavez.mp4
+    time: '699.733333'
+    live: '1'
+    new: '1'
+    active: '1'
+    type: F
+    created_at: '2012-07-23 12:19:17'
+    updated_at: '2012-11-01 09:11:18'
+    slug: '00001047'
+    created_by: '2'
+    updated_by: cabeza1
+  Video_60:
+    Category: Category_6
+    code: '00001049'
+    image: 75e2d9a54b4a1e793b61722cbf2af3555ecfe6ba.jpg
+    video: expotic.mp4
+    time: '767.552'
+    live: '0'
+    new: '1'
+    active: '1'
+    type: F
+    created_at: '2012-07-23 12:24:04'
+    updated_at: '2012-11-01 09:22:15'
+    slug: '00001049'
+    created_by: '2'
+    updated_by: cabeza1
+  Video_61:
+    Category: Category_9
+    code: '00001050'
+    image: a542d773fe75a0812744fa78c0159daecbd1560b.jpg
+    video: 01_el_pisco.mp4
+    time: '750.293333'
+    live: '1'
+    new: '1'
+    active: '1'
+    type: F
+    created_at: '2012-08-10 19:29:34'
+    updated_at: '2012-11-01 09:00:39'
+    slug: '00001050'
+    created_by: '2'
+    updated_by: cabeza1
+  Video_62:
+    Category: Category_7
+    code: '00001051'
+    image: cffec044388fa840be6430b04f664d127f7637ed.jpg
+    video: 03_encuentros_cusco.mp4
+    time: '921.6'
+    live: '1'
+    new: '1'
+    active: '1'
+    type: F
+    created_at: '2012-08-10 19:32:46'
+    updated_at: '2012-11-01 09:02:56'
+    slug: '00001051'
+    created_by: '2'
+    updated_by: cabeza1
+  Video_63:
+    code: '00001052'
+    image: null
+    video: 02_tandanew.mp4
+    time: '221.205333'
+    live: '1'
+    new: '0'
+    active: '1'
+    type: F
+    created_at: '2012-08-10 19:38:32'
+    updated_at: '2012-09-11 13:47:45'
+    slug: '00001052'
+    created_by: '2'
+    updated_by: cabeza1
+  Video_64:
+    code: '00001053'
+    image: null
+    video: 04_tanda2.mp4
+    time: '175.978666'
+    live: '1'
+    new: '0'
+    active: '1'
+    type: F
+    created_at: '2012-08-10 19:39:45'
+    updated_at: '2012-08-10 19:48:43'
+    slug: '00001053'
+    created_by: '2'
+    updated_by: cabeza1
+  Video_65:
+    code: '00001054'
+    image: null
+    video: 06_tanda3.mp4
+    time: '180.501333'
+    live: '1'
+    new: '0'
+    active: '1'
+    type: F
+    created_at: '2012-08-10 19:40:32'
+    updated_at: '2012-08-10 19:51:21'
+    slug: '00001054'
+    created_by: '2'
+    updated_by: cabeza1
+  Video_66:
+    code: '00001055'
+    image: null
+    video: 08_tanda1.mp4
+    time: '150.698666'
+    live: '1'
+    new: '0'
+    active: '1'
+    type: F
+    created_at: '2012-08-10 19:54:23'
+    updated_at: '2012-08-10 21:42:49'
+    slug: '00001055'
+    created_by: '2'
+    updated_by: cabeza1
+  Video_67:
+    code: '00001056'
+    image: null
+    video: 10_tanda2.mp4
+    time: '175.978666'
+    live: '1'
+    new: '0'
+    active: '1'
+    type: F
+    created_at: '2012-08-10 21:29:20'
+    updated_at: '2012-08-10 21:44:01'
+    slug: '00001056'
+    created_by: '2'
+    updated_by: cabeza1
+  Video_68:
+    code: '00001057'
+    image: null
+    video: 12_tandanew.mp4
+    time: '221.205333'
+    live: '1'
+    new: '0'
+    active: '1'
+    type: F
+    created_at: '2012-08-10 21:30:20'
+    updated_at: '2012-09-11 13:49:36'
+    slug: '00001057'
+    created_by: '2'
+    updated_by: cabeza1
+  Video_69:
+    code: '00001058'
+    image: null
+    video: 14_tanda1.mp4
+    time: '150.698666'
+    live: '1'
+    new: '0'
+    active: '1'
+    type: F
+    created_at: '2012-08-10 21:31:13'
+    updated_at: '2012-08-10 21:46:19'
+    slug: '00001058'
+    created_by: '2'
+    updated_by: cabeza1
+  Video_70:
+    code: '00001059'
+    image: null
+    video: 16_tanda2.mp4
+    time: '175.978666'
+    live: '1'
+    new: '0'
+    active: '1'
+    type: F
+    created_at: '2012-08-10 21:31:46'
+    updated_at: '2012-08-10 21:47:18'
+    slug: '00001059'
+    created_by: '2'
+    updated_by: cabeza1
+  Video_71:
+    code: '00001060'
+    image: null
+    video: 18_tanda3.mp4
+    time: '180.501333'
+    live: '1'
+    new: '0'
+    active: '1'
+    type: F
+    created_at: '2012-08-10 21:32:27'
+    updated_at: '2012-08-10 21:48:27'
+    slug: '00001060'
+    created_by: '2'
+    updated_by: cabeza1
+  Video_72:
+    code: '00001061'
+    image: null
+    video: 20_tandanew.mp4
+    time: '221.205333'
+    live: '1'
+    new: '0'
+    active: '1'
+    type: F
+    created_at: '2012-08-10 21:33:08'
+    updated_at: '2012-09-11 13:51:04'
+    slug: '00001061'
+    created_by: '2'
+    updated_by: cabeza1
+  Video_74:
+    Category: Category_8
+    code: '00001063'
+    image: 911faf918b5818092cc753b08dac11d79963a36b.jpg
+    video: AOC.mp4
+    time: ''
+    live: '0'
+    new: '1'
+    active: '1'
+    type: F
+    created_at: '2012-08-10 21:52:27'
+    updated_at: '2012-08-10 21:52:27'
+    slug: '00001063'
+    created_by: '2'
+    updated_by: cabeza1
+  Video_78:
+    Category: Category_8
+    code: '00001067'
+    image: 22adce8bf93a280db24a568fe00c659268eeafbc.jpg
+    video: domiruth.mp4
+    time: ''
+    live: '0'
+    new: '1'
+    active: '1'
+    type: F
+    created_at: '2012-09-11 13:45:57'
+    updated_at: '2012-09-11 13:45:57'
+    slug: '00001067'
+    created_by: '2'
+    updated_by: cabeza1
+  Video_79:
+    Category: Category_7
+    code: '00001068'
+    image: 11f7a1dc5dda5272c92c9b2ac8a4a2837586e673.jpg
+    video: 07_the_avergers.mp4
+    time: '334.485333'
+    live: '1'
+    new: '1'
+    active: '1'
+    type: F
+    created_at: '2012-11-01 10:18:07'
+    updated_at: '2012-11-01 10:20:44'
+    slug: '00001068'
+    created_by: '2'
+    updated_by: cabeza1
+  Video_80:
+    Category: Category_9
+    code: '00001069'
+    image: 1646023c41dd3d071b88534d153e8319baa41493.jpg
+    video: 11_peru_catalogo.mp4
+    time: '307.882666'
+    live: '1'
+    new: '1'
+    active: '1'
+    type: F
+    created_at: '2012-11-01 10:22:13'
+    updated_at: '2012-11-01 10:23:42'
+    slug: '00001069'
+    created_by: '2'
+    updated_by: cabeza1
+  Video_81:
+    Category: Category_7
+    code: '00001070'
+    image: 897410bb566f28ad68ad6e292e376688d87f833d.jpg
+    video: 13_el_electicista.mp4
+    time: '528.362666'
+    live: '1'
+    new: '1'
+    active: '1'
+    type: F
+    created_at: '2012-11-01 10:25:45'
+    updated_at: '2012-11-01 10:26:55'
+    slug: '00001070'
+    created_by: '2'
+    updated_by: cabeza1
+  Video_83:
+    Category: Category_7
+    code: '00001072'
+    image: 128280cf842308ed77de8c1e40c5958e0f099f65.jpg
+    video: 17_hotel_bolivar.mp4
+    time: '170.453333'
+    live: '1'
+    new: '1'
+    active: '1'
+    type: F
+    created_at: '2012-11-01 10:30:47'
+    updated_at: '2012-11-01 10:31:54'
+    slug: '00001072'
+    created_by: '2'
+    updated_by: cabeza1
+  Video_84:
+    Category: Category_2
+    code: '00001073'
+    image: a83f40dc8a17f78da0642758edff21cbfa8ad578.jpg
+    video: 15_fotografos_guerra.mp4
+    time: '2886.29333'
+    live: '1'
+    new: '1'
+    active: '1'
+    type: F
+    created_at: '2012-11-01 22:40:28'
+    updated_at: '2012-11-02 07:36:13'
+    slug: '00001073'
+    created_by: '2'
+    updated_by: cabeza1
+Visit:
+  Visit_1:
+    remote_address: 190.43.32.112
+    remote_port: '10992'
+    http_user_agent: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.9.1.9) Gecko/20100315 Firefox/3.5.9'
+    datetime: '2010-05-23 13:20:00'
+    created_at: '2010-05-23 13:20:00'
+    updated_at: '2010-05-23 13:20:00'
+  Visit_2:
+    remote_address: 190.43.32.112
+    remote_port: '11000'
+    http_user_agent: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.9.1.9) Gecko/20100315 Firefox/3.5.9'
+    datetime: '2010-05-23 13:20:44'
+    created_at: '2010-05-23 13:20:44'
+    updated_at: '2010-05-23 13:20:44'
+  Visit_3:
+    remote_address: 190.43.32.112
+    remote_port: '11042'
+    http_user_agent: 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.4; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.2; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; OfficeLiveConnector.1.3; OfficeLi'
+    datetime: '2010-05-23 13:21:33'
+    created_at: '2010-05-23 13:21:33'
+    updated_at: '2010-05-23 13:21:33'
+  Visit_4:
+    remote_address: 190.43.32.112
+    remote_port: '11049'
+    http_user_agent: 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.4; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.2; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; OfficeLiveConnector.1.3; OfficeLivePatch.0.0)'
+    datetime: '2010-05-23 13:24:13'
+    created_at: '2010-05-23 13:24:13'
+    updated_at: '2010-05-23 13:24:13'
+  Visit_5:
+    remote_address: 190.43.32.112
+    remote_port: '11105'
+    http_user_agent: 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.4; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.2; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; OfficeLiveConnector.1.3; OfficeLivePatch.0.0)'
+    datetime: '2010-05-23 13:27:33'
+    created_at: '2010-05-23 13:27:33'
+    updated_at: '2010-05-23 13:27:33'
+  Visit_6:
+    remote_address: 127.0.0.1
+    remote_port: '49415'
+    http_user_agent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
+    datetime: '2012-11-07 15:55:46'
+    created_at: '2012-11-07 15:55:46'
+    updated_at: '2012-11-07 15:55:46'
+  Visit_7:
+    remote_address: 127.0.0.1
+    remote_port: '49464'
+    http_user_agent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
+    datetime: '2012-11-07 15:56:12'
+    created_at: '2012-11-07 15:56:12'
+    updated_at: '2012-11-07 15:56:12'
+  Visit_8:
+    remote_address: 127.0.0.1
+    remote_port: '49464'
+    http_user_agent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
+    datetime: '2012-11-07 15:56:13'
+    created_at: '2012-11-07 15:56:13'
+    updated_at: '2012-11-07 15:56:13'
+  Visit_9:
+    remote_address: 127.0.0.1
+    remote_port: '49464'
+    http_user_agent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
+    datetime: '2012-11-07 15:56:16'
+    created_at: '2012-11-07 15:56:16'
+    updated_at: '2012-11-07 15:56:16'
+  Visit_10:
+    remote_address: 127.0.0.1
+    remote_port: '50771'
+    http_user_agent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/536.26.17 (KHTML, like Gecko) Version/6.0.2 Safari/536.26.17'
+    datetime: '2012-11-08 22:12:14'
+    created_at: '2012-11-08 22:12:14'
+    updated_at: '2012-11-08 22:12:14'
+  Visit_11:
+    remote_address: 127.0.0.1
+    remote_port: '50833'
+    http_user_agent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/536.26.17 (KHTML, like Gecko) Version/6.0.2 Safari/536.26.17'
+    datetime: '2012-11-08 22:19:50'
+    created_at: '2012-11-08 22:19:50'
+    updated_at: '2012-11-08 22:19:50'
+  Visit_12:
+    remote_address: 127.0.0.1
+    remote_port: '50864'
+    http_user_agent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/536.26.17 (KHTML, like Gecko) Version/6.0.2 Safari/536.26.17'
+    datetime: '2012-11-08 22:25:09'
+    created_at: '2012-11-08 22:25:09'
+    updated_at: '2012-11-08 22:25:09'
+  Visit_13:
+    remote_address: 127.0.0.1
+    remote_port: '51159'
+    http_user_agent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/536.26.17 (KHTML, like Gecko) Version/6.0.2 Safari/536.26.17'
+    datetime: '2012-11-08 22:43:48'
+    created_at: '2012-11-08 22:43:48'
+    updated_at: '2012-11-08 22:43:48'
+  Visit_14:
+    remote_address: 127.0.0.1
+    remote_port: '51160'
+    http_user_agent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/536.26.17 (KHTML, like Gecko) Version/6.0.2 Safari/536.26.17'
+    datetime: '2012-11-08 22:43:52'
+    created_at: '2012-11-08 22:43:52'
+    updated_at: '2012-11-08 22:43:52'
+  Visit_15:
+    remote_address: 127.0.0.1
+    remote_port: '51181'
+    http_user_agent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/536.26.17 (KHTML, like Gecko) Version/6.0.2 Safari/536.26.17'
+    datetime: '2012-11-08 22:44:00'
+    created_at: '2012-11-08 22:44:00'
+    updated_at: '2012-11-08 22:44:00'
+  Visit_16:
+    remote_address: 127.0.0.1
+    remote_port: '49672'
+    http_user_agent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
+    datetime: '2012-11-09 16:30:54'
+    created_at: '2012-11-09 16:30:54'
+    updated_at: '2012-11-09 16:30:54'
+  Visit_17:
+    remote_address: 127.0.0.1
+    remote_port: '50022'
+    http_user_agent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
+    datetime: '2012-11-13 00:13:59'
+    created_at: '2012-11-13 00:13:59'
+    updated_at: '2012-11-13 00:13:59'
+  Visit_18:
+    remote_address: 127.0.0.1
+    remote_port: '50262'
+    http_user_agent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
+    datetime: '2012-11-13 00:29:31'
+    created_at: '2012-11-13 00:29:31'
+    updated_at: '2012-11-13 00:29:31'
+  Visit_19:
+    remote_address: 127.0.0.1
+    remote_port: '50303'
+    http_user_agent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
+    datetime: '2012-11-13 00:29:57'
+    created_at: '2012-11-13 00:29:57'
+    updated_at: '2012-11-13 00:29:57'
+  Visit_20:
+    remote_address: 127.0.0.1
+    remote_port: '50318'
+    http_user_agent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
+    datetime: '2012-11-13 00:29:57'
+    created_at: '2012-11-13 00:29:57'
+    updated_at: '2012-11-13 00:29:57'
+  Visit_21:
+    remote_address: 127.0.0.1
+    remote_port: '50362'
+    http_user_agent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
+    datetime: '2012-11-13 00:35:42'
+    created_at: '2012-11-13 00:35:42'
+    updated_at: '2012-11-13 00:35:42'
+  Visit_22:
+    remote_address: 127.0.0.1
+    remote_port: '50530'
+    http_user_agent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
+    datetime: '2012-11-13 00:43:27'
+    created_at: '2012-11-13 00:43:27'
+    updated_at: '2012-11-13 00:43:27'
+  Visit_23:
+    remote_address: 127.0.0.1
+    remote_port: '50592'
+    http_user_agent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
+    datetime: '2012-11-13 00:47:19'
+    created_at: '2012-11-13 00:47:19'
+    updated_at: '2012-11-13 00:47:19'
+  Visit_24:
+    remote_address: 127.0.0.1
+    remote_port: '49275'
+    http_user_agent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
+    datetime: '2012-11-13 14:05:56'
+    created_at: '2012-11-13 14:05:56'
+    updated_at: '2012-11-13 14:05:56'
+  Visit_25:
+    remote_address: 127.0.0.1
+    remote_port: '49740'
+    http_user_agent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
+    datetime: '2012-11-13 15:08:04'
+    created_at: '2012-11-13 15:08:04'
+    updated_at: '2012-11-13 15:08:04'
+  Visit_26:
+    remote_address: 127.0.0.1
+    remote_port: '49893'
+    http_user_agent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
+    datetime: '2012-11-13 15:10:15'
+    created_at: '2012-11-13 15:10:15'
+    updated_at: '2012-11-13 15:10:15'
+CategoryTranslation:
+  CategoryTranslation_1_en:
+    Category: Category_1
+    name: News
+    description: '<p></p>'
+    lang: en
+  CategoryTranslation_1_es:
+    Category: Category_1
+    name: Novedades
+    description: '<p></p>'
+    lang: es
+  CategoryTranslation_1_pt:
+    Category: Category_1
+    name: Novo
+    description: '<p></p>'
+    lang: pt
+  CategoryTranslation_2_en:
+    Category: Category_2
+    name: News
+    description: ''
+    lang: en
+  CategoryTranslation_2_es:
+    Category: Category_2
+    name: Noticias
+    description: ''
+    lang: es
+  CategoryTranslation_2_pt:
+    Category: Category_2
+    name: Noticiário
+    description: ''
+    lang: pt
+  CategoryTranslation_3_en:
+    Category: Category_3
+    name: Culture
+    description: ''
+    lang: en
+  CategoryTranslation_3_es:
+    Category: Category_3
+    name: Cultura
+    description: ''
+    lang: es
+  CategoryTranslation_3_pt:
+    Category: Category_3
+    name: Cultura
+    description: ''
+    lang: pt
+  CategoryTranslation_6_en:
+    Category: Category_6
+    name: Companies
+    description: ''
+    lang: en
+  CategoryTranslation_6_es:
+    Category: Category_6
+    name: Empresas
+    description: ''
+    lang: es
+  CategoryTranslation_6_pt:
+    Category: Category_6
+    name: Empresas
+    description: ''
+    lang: pt
+  CategoryTranslation_7_en:
+    Category: Category_7
+    name: Entertaiment
+    description: '<p></p>'
+    lang: en
+  CategoryTranslation_7_es:
+    Category: Category_7
+    name: Entretenimiento
+    description: '<p></p>'
+    lang: es
+  CategoryTranslation_7_pt:
+    Category: Category_7
+    name: Entretenimento
+    description: '<p></p>'
+    lang: pt
+  CategoryTranslation_8_en:
+    Category: Category_8
+    name: Publicity
+    description: '<p></p>'
+    lang: en
+  CategoryTranslation_8_es:
+    Category: Category_8
+    name: Publicidad
+    description: '<p></p>'
+    lang: es
+  CategoryTranslation_8_pt:
+    Category: Category_8
+    name: Publicidade
+    description: '<p></p>'
+    lang: pt
+  CategoryTranslation_9_en:
+    Category: Category_9
+    name: Tourism
+    description: '<p></p>'
+    lang: en
+  CategoryTranslation_9_es:
+    Category: Category_9
+    name: Turismo
+    description: '<p></p>'
+    lang: es
+  CategoryTranslation_9_pt:
+    Category: Category_9
+    name: Turismo
+    description: '<p></p>'
+    lang: pt
+  CategoryTranslation_10_en:
+    Category: Category_10
+    name: Us
+    description: ''
+    lang: en
+  CategoryTranslation_10_es:
+    Category: Category_10
+    name: Nosotros
+    description: ''
+    lang: es
+  CategoryTranslation_10_pt:
+    Category: Category_10
+    name: Nois
+    description: ''
+    lang: pt
+  CategoryTranslation_11_en:
+    Category: Category_11
+    name: Live
+    description: ''
+    lang: en
+  CategoryTranslation_11_es:
+    Category: Category_11
+    name: 'En Vivo'
+    description: ''
+    lang: es
+  CategoryTranslation_11_pt:
+    Category: Category_11
+    name: 'Ao Vivo'
+    description: ''
+    lang: pt
+VideoTranslation:
+  VideoTranslation_13_es:
+    Video: Video_13
+    title: 'Barcelona vs Real Madrid'
+    description: ''
+    lang: es
+  VideoTranslation_19_es:
+    Video: Video_19
+    title: Agromar
+    description: ''
+    lang: es
+  VideoTranslation_24_es:
+    Video: Video_24
+    title: 'Quienes Somos'
+    description: ''
+    lang: es
+  VideoTranslation_25_es:
+    Video: Video_25
+    title: 'Who we are?'
+    description: ''
+    lang: es
+  VideoTranslation_26_es:
+    Video: Video_26
+    title: TEC
+    description: ''
+    lang: es
+  VideoTranslation_27_es:
+    Video: Video_27
+    title: 'Escuela de Cine de Lima'
+    description: ''
+    lang: es
+  VideoTranslation_28_es:
+    Video: Video_28
+    title: Franca
+    description: ''
+    lang: es
+  VideoTranslation_29_es:
+    Video: Video_29
+    title: TLC
+    description: ''
+    lang: es
+  VideoTranslation_30_es:
+    Video: Video_30
+    title: 'Calendario Turístico Julio'
+    description: ''
+    lang: es
+  VideoTranslation_35_en:
+    Video: Video_35
+    title: ''
+    description: ''
+    lang: en
+  VideoTranslation_35_es:
+    Video: Video_35
+    title: 'Crónicas & Retratos / Mario Torres'
+    description: ''
+    lang: es
+  VideoTranslation_53_es:
+    Video: Video_53
+    title: EXPOALIMENTARIA
+    description: ''
+    lang: es
+  VideoTranslation_54_es:
+    Video: Video_54
+    title: 'DOMINGO AL DIA'
+    description: ''
+    lang: es
+  VideoTranslation_58_es:
+    Video: Video_58
+    title: 'JORGE CHAVEZ'
+    description: ''
+    lang: es
+  VideoTranslation_60_es:
+    Video: Video_60
+    title: EXPOTIC
+    description: ''
+    lang: es
+  VideoTranslation_61_es:
+    Video: Video_61
+    title: 'EL PISCO ES PERUANO'
+    description: ''
+    lang: es
+  VideoTranslation_62_es:
+    Video: Video_62
+    title: 'ENCUENTROS SOBRE RUEDAS - CUSCO'
+    description: ''
+    lang: es
+  VideoTranslation_63_es:
+    Video: Video_63
+    title: tanda1
+    description: ''
+    lang: es
+  VideoTranslation_64_es:
+    Video: Video_64
+    title: tanda2
+    description: ''
+    lang: es
+  VideoTranslation_65_es:
+    Video: Video_65
+    title: tanda3
+    description: ''
+    lang: es
+  VideoTranslation_66_es:
+    Video: Video_66
+    title: tanda4
+    description: ''
+    lang: es
+  VideoTranslation_67_es:
+    Video: Video_67
+    title: tanda5
+    description: ''
+    lang: es
+  VideoTranslation_68_es:
+    Video: Video_68
+    title: tanda6
+    description: ''
+    lang: es
+  VideoTranslation_69_es:
+    Video: Video_69
+    title: tanda7
+    description: ''
+    lang: es
+  VideoTranslation_70_es:
+    Video: Video_70
+    title: tanda8
+    description: ''
+    lang: es
+  VideoTranslation_71_es:
+    Video: Video_71
+    title: tanda9
+    description: ''
+    lang: es
+  VideoTranslation_72_es:
+    Video: Video_72
+    title: tanda10
+    description: ''
+    lang: es
+  VideoTranslation_74_es:
+    Video: Video_74
+    title: AOC
+    description: 'http://pe.aoc.com/'
+    lang: es
+  VideoTranslation_78_es:
+    Video: Video_78
+    title: 'DOMIRUTH TRAVEL'
+    description: 'http://domiruth.com'
+    lang: es
+  VideoTranslation_79_es:
+    Video: Video_79
+    title: 'The Avergers'
+    description: ''
+    lang: es
+  VideoTranslation_80_es:
+    Video: Video_80
+    title: 'PERU, CATALOGO DEL MUNDO'
+    description: ''
+    lang: es
+  VideoTranslation_81_es:
+    Video: Video_81
+    title: 'EL ELECTRICISTA'
+    description: ''
+    lang: es
+  VideoTranslation_83_es:
+    Video: Video_83
+    title: 'HOTEL BOLIVAR'
+    description: ''
+    lang: es
+  VideoTranslation_84_es:
+    Video: Video_84
+    title: 'Entre líneas de Fuego, Fotografos de Guerra'
+    description: ''
+    lang: es
