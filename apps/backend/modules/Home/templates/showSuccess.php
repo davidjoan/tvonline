@@ -1,11 +1,30 @@
+<div id="container"></div>
 
-<div id="mediaplayer">JW Player goes here</div>
-<script type="text/javascript" src="js/mediaplayer/jwplayer.js"></script>
-	
-	<script type="text/javascript">
-		jwplayer("mediaplayer").setup({
-			flashplayer: "/js/mediaplayer/player.swf",
-			file: "/js/mediaplayer/video.mp4",
-			image: "/js/mediaplayer/preview.jpg"
-		});
-	</script>
+<script type="text/javascript">
+jwplayer("container").setup({
+modes: [
+{ type: "flash", src: "/js/jwplayer/player.swf" },
+{ type: "html5" }
+
+],
+autostart: false,
+volume: 80,
+stretching: "fill",
+height:"423",
+width:"986",
+skin: "/skins/glow/glow.zip",
+file: "/perutvonline/playlist.xml",
+repeat: "none",
+"playlist.position": "right",
+"playlist.size": "250",
+"viral.onpause": false,
+"viral.oncomplete": false,
+"viral.allowmenu": false,
+'plugins': {
+       'metaviewer-1': {
+           'position': 'left',
+           'size': '200'
+       }
+    }
+});
+</script>

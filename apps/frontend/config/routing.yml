@@ -1,29 +1,28 @@
-# You can find more information about this file on the symfony website:
-# http://www.symfony-project.org/reference/1_4/en/10-Routing
+live:
+  url:             /live/:sf_culture/:slug/:category
+  param:           { module: Home, action: live, category: '1', sf_culture: 'es' }
+  requirements:    { slug: \w+, category: \d+ }
+  
+playlist:
+  url:             /perutvonline/playlist.:sf_format
+  param:           { module: Home, action: playlist,  sf_format: xml}
 
 homepage:
-  url:             /:sf_culture/:category/:video
-  param:           { module: Home, action: show, category: '', video: '', sf_culture: 'es' }
-  requirements:    { category: \d+, video: \d+ }
+  url:             /:sf_culture/:category
+  param:           { module: Home, action: show, category: '1', sf_culture: 'es' }
+  requirements:    { category: \d+ }
   
 load_category:
-  url:             /load/category/*
-  param:           { module: Home, action: load}
+  url:             /load/category/:category
+  param:           { module: Home, action: category, category: '1' }
+  requirements:    { category: \d+ }
 
-load_title:
-  url:             /load/title/*
-  param:           { module: Home, action: category}
-
-load_video:
-  url:             /load/video/*
-  param:           { module: Home, action: video}
-  
 contact:
   url:   /:sf_culture/contact
   param: { module: contact, action: index, sf_culture: 'es' }
 
 image:
-  url:   /:sf_culture/imagen
+  url:   /:sf_culture/imagen.png
   param: { module: contact, action: image, sf_culture: 'es' }
 
 default:

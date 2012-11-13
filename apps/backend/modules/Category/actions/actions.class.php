@@ -10,7 +10,7 @@
  */
 class CategoryActions extends ActionsCrud
 {
-	  protected function getExtraFilterAndArrangeFields()
+  protected function getExtraFilterAndArrangeFields()
   {
     return array
     (

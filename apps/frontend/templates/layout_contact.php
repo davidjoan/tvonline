@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang=es>  
+<html lang=es>
     <head>
         <?php include_http_metas() ?>
         <?php include_metas() ?>
@@ -15,7 +15,7 @@
                 });
             });
         </script>
-    </head>    
+    </head>
 
     <body>
         <div class="todo">
@@ -24,7 +24,7 @@
                 <div>
                     <?php echo link_to(image_tag('frontend/logo', array('border' => 0, 'width' => 380, 'height' => 66, 'alt' => 'Perú TV Online')), '@homepage?sf_culture=' . $sf_user->getCulture()); ?>
 
-                </div>            
+                </div>
                 <?php echo $sf_content ?>
             </div>
 

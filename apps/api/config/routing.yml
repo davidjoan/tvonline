@@ -1,0 +1,32 @@
+############################
+########## Category ########
+############################
+
+category_show:
+  url:             /category/:sf_culture/:slug.:sf_format
+  param:           { module: Category, action: show, sf_format: xml, sf_culture: es }
+  class:           sfRequestRoute
+  requirements:    { slug: \w+, sf_method: GET }
+
+category_list:
+  url:             /categories/:sf_culture/:filter_by/:filter/:order_by/:order/:max/:page.:sf_format
+  param:           { module: Category, action: list, filter_by: id, filter: 0, order_by: created_at, order: d, max: 100, page: 1, sf_format: xml, sf_culture: es }
+  class:           sfRequestRoute
+  requirements:    { filter_by: \w+, filter: '[^\/^\s]+', order_by: \w+, order: \w+, max: \d+, page: \d+, sf_method: GET }
+
+
+#########################
+########## Video ########
+#########################
+
+video_show:
+  url:             /video/:sf_culture/:slug.:sf_format
+  param:           { module: Video, action: show, sf_format: xml, sf_culture: es }
+  class:           sfRequestRoute
+  requirements:    { slug: \w+, sf_method: GET }
+
+video_list:
+  url:             /videos/:sf_culture/:filter_by/:filter/:order_by/:order/:max/:page.:sf_format
+  param:           { module: Video, action: list, filter_by: id, filter: 0, order_by: created_at, order: d, max: 1000, page: 1, sf_format: xml, sf_culture: es }
+  class:           sfRequestRoute
+  requirements:    { filter_by: \w+, filter: '[^\/^\s]+', order_by: \w+, order: \w+, max: \d+, page: \d+, sf_method: GET }

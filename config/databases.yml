@@ -1,4 +1,3 @@
-
 # You can find more information about this file on the symfony website:
 # http://www.symfony-project.org/reference/1_4/en/07-Databases
 
@@ -8,6 +7,9 @@ all:
     param:
       dsn:      mysql:host=localhost;dbname=tvonline
       username: root
-      password: ''
+      password: 'root'
+      #cdsn:      mysql:host=localhost;dbname=perutvon_line
+      #username: perutvon_user
+      #password: '-;DNf*c6@cvh'
       attributes:
         use_dql_callbacks: true

@@ -46,12 +46,9 @@ class Video extends BaseVideo
   
   public function getTitleEs()
   {
-  	return sprintf('%s',$this->Translation['es']->title);
+  	return $this->getTitle();
   }
-  public function getLineIdName()
-  {
-   	return $this->getLine()->Translation['es']->title;
-  }
+
   
   public function getTitleFull()
   {
@@ -68,5 +65,53 @@ class Video extends BaseVideo
     parent::save($conn);
   }
   
+  public function getPlaylist()
+  {
+      
+  }
+  
+  public function getTimeFormatted()
+  {
+  $miliseconds=$this->getTime();
+$seconds= $miliseconds;
+//for seconds
+if($seconds> 0)
+{
+$sec= "" . ($seconds%60);
+if($seconds % 60 <10)
+{
+$sec= "0" . ($seconds%60);
+}
+}
+//for mins
+if($seconds > 60)
+{
+$mins= "". ($seconds/60%60);
+if(($seconds/60%60)<10)
+{
+$mins= "0" . ($seconds/60%60);
+}
+}
+else
+{
+$mins= "00";
+}
+//for hours
+if($seconds/60 > 60)
+{
+$hours= "". ($seconds/60/60);
+if(($seconds/60/60) < 10)
+{
+$hours= "0" . ($seconds/60/60);
+}
 
+}
+else
+{
+$hours= "00";
+}
+
+$time_format= "  " . $mins . ":" . $sec; //00:15:00
+return $time_format;
+  }
 }

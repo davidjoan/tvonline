@@ -1,5 +1,1 @@
-<?php if($category_id == ''): ?>
-  <?php echo __('Novedades:')?>
-<?php else: ?>
-  <?php echo $category->Translation[$sf_user->getCulture()]->name; ?>:
-<?php endif; ?>
+<?php include_partial('Home/category',array('videos' => $videos,'category' => $category)); ?>

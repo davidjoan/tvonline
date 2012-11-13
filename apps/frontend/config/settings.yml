@@ -1,6 +1,6 @@
 prod:
   .settings:
-    no_script_name:         false
+    no_script_name:         true
     logging_enabled:        false
 
 dev:
@@ -27,7 +27,7 @@ all:
     escaping_method:        ESC_SPECIALCHARS
 
     standard_helpers:       [ Text, Cache, JavascriptBase, Partial, FormExt, Toolkit, UrlExt, I18N ]
-    enabled_modules:        [ Crud, Error, Generic, Pager, contact]
+    enabled_modules:        [ Crud, Error, Generic, Pager, contact, sfRestWebService]
     i18n:                   true
     use_database:           true
     default_culture:        es

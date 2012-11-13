@@ -22,4 +22,16 @@ class VideoActions extends ActionsCrud
   {
     Doctrine::getTable($this->modelClass)->updateQueryForList($q);
   }
+  /*
+  protected function complementSave(sfWebRequest $request)
+  {
+  $app_id = '24033';
+  $key = '2cffea531e7b0f03c182';
+  $secret = 'defb10d9ca28cedd587e';
+    $pusher = new Pusher($key, $secret, $app_id);
+    $data["message"] = sprintf("Una nuevo video en perutvonline");
+    $data["id"] = $this->form->getObject()->getId();
+    $data["name"] = $this->form->getObject()->Translation['es']->title;
+    $pusher->trigger('perutvonline', 'notificaciones',$data );
+  }  */
 }

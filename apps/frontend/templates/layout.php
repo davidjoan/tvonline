@@ -1,34 +1,30 @@
-<!doctype html>
-<html lang=es>
-    <head>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=980">
+        <meta name="google-site-verification" content="IL8FIc8GmPjMvGHph_GxleDrP5I1KUpVNlQAEL7LWX8" />
         <?php include_http_metas() ?>
         <?php include_metas() ?>
         <?php include_title() ?>
         <?php include_javascripts() ?>
         <?php include_stylesheets() ?>
+        <meta name="google-site-verification" content="BF0Fs1ACukEc0wgruLpb8p4N8fqHIeHhG6DLZIDTTLg" />
         <link rel="shortcut icon" href="/favicon.ico" />
-        <link rel="stylesheet" type="text/css" href="/skins/tango/skin.css" />
-        <link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
-        <script src="http://vjs.zencdn.net/c/video.js"></script>
-
-
+        <link rel="stylesheet" type="text/css" href="/skins/tango/skin.css" />     
         <script type="text/javascript">
-            jQuery(document).ready(function() {
-                jQuery('#mycarousel').jcarousel({
-                    wrap: 'circular'
-                });
-                
-                $("#contact").fancybox({
-		'transitionIn'		: 'none',
-		'transitionOut'		: 'none',
-		'autoScale'     	: false,
-		'type'			: 'iframe',
-		'width'			: 400,
-		'height'		: 400,
-		'scrolling'   		: 'no'
-	});
-            });
-        </script>
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25159130-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
     </head>
     <body>
         <div id="fb-root"></div>
@@ -58,7 +54,6 @@
                         <div id="videos">
                             <?php echo $sf_content; ?>
                         </div>
-                        
                     </div>
                 </div>
                 <?php include_partial('General/footer') ?>

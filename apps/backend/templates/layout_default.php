@@ -4,7 +4,7 @@
     <?php include_http_metas() ?>
     <?php include_metas() ?>
     <?php include_title() ?>
-    <link rel="shortcut icon" href="/images/general/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.ico"/>
     <?php use_stylesheet('backend/default/layout.css', 'first') ?>
     <?php include_stylesheets() ?>
     <?php include_javascripts() ?>
@@ -14,7 +14,7 @@
     <div class="wrap">
       <div class="header">
         <br/><br/>
-        PERUTVONLINE.com
+        PERUTVONLINE.COM
       </div>
       
       <div class="content">

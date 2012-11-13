@@ -26,17 +26,13 @@ class HomeActions extends ActionsProject
         $this->category = Doctrine::getTable("Category")->findOneById($this->category_id);
   	$this->videos = Doctrine::getTable('Video')->getVideos($this->category_id);
   }
-  
-  public function executeLoad(sfWebRequest $request)
-  {
-      $category = $request->getPostParameter('category');
-      $this->videos = Doctrine::getTable('Video')->getVideos($category);
-  }
+
   
   public function executeCategory(sfWebRequest $request)
   {
-      $this->category_id = $request->getPostParameter('category');
+      $this->category_id = $request->getParameter('category');
       $this->category    = Doctrine::getTable('Category')->findOneById($this->category_id);
+      $this->videos = Doctrine::getTable('Video')->getVideos($this->category_id);      
   }
   
   public function executeVideo(sfWebRequest $request)
@@ -45,4 +41,30 @@ class HomeActions extends ActionsProject
       $this->video    = Doctrine::getTable('Video')->findOneById($this->video_id);
       $this->type     = is_object($this->video)?$this->video->getType():'W';
   }
+  
+  public function executePlaylist(sfWebRequest $request)
+  {
+      $this->videos   = Doctrine::getTable('Video')->getLive();
+      //$this->setLayout(false);
+
+  }
+  
+  public function executeLive(sfWebRequest $request)
+  {
+  	Doctrine::getTable('Visit')->createAndSave($request->getPathInfoArray());
+  	
+  	$this->getResponse()->setTitle('Perú TV online | Esta donde estas | En VIVO');
+        
+        $this->slug = $request->getParameter('slug');
+        
+  	$this->video = Doctrine::getTable('Video')->findOneBySlug($this->slug);
+  	
+        $this->category_id = $request->getParameter('category');
+        
+        $this->category_id = ($this->category_id == "")? 1 : $this->category_id;
+        
+        $this->category = Doctrine::getTable("Category")->findOneById($this->category_id);
+  	$this->videos = Doctrine::getTable('Video')->getVideos($this->category_id);
+  	
+  }    
 }

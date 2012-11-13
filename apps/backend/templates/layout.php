@@ -4,19 +4,14 @@
     <?php include_http_metas() ?>
     <?php include_metas() ?>
     <?php include_title() ?>
-    <link rel="shortcut icon" href="/images/general/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.ico"/>
     <?php use_stylesheet(sfConfig::get('sf_app').'/layout.css', 'first') ?>
     <?php use_stylesheet('backend/menu.css'  , 'first') ?>
     <?php include_stylesheets() ?>
     <?php include_javascripts() ?>
     <script type="text/javascript" src="/tinymce/jscripts/tiny_mce/tiny_mce.js"></script>
-    <script type="text/javascript" src="/sfMediaBrowserPlugin/js/WindowManager.js"></script>
   </head>
-  
   <body>
-  <script>
-  sfMediaBrowserWindowManager.init('<?php echo url_for('sf_media_browser_select') ?>');
-  </script>
     <div class="wrap">
       <div class="header">
         <?php include_partial('General/header') ?>

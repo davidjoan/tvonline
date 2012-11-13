@@ -67,6 +67,15 @@ class CategoryTable extends DoctrineTable
       ->addWhere('t.name <> ?', sfConfig::get('app_root'));
   }
   
+  function updateQueryForListApi(DoctrineQuery $q)
+  {             
+    $q->addSelect('c.*,t.name name_str')
+      ->leftJoin('c.Translation t')
+      ->addWhere('t.lang = ?', 'es')
+      ->addWhere('c.active = ?', '1')      
+      ->addWhere('t.name <> ?', sfConfig::get('app_root'));
+  }  
+  
   public function getPathDir()
   {
     return sfConfig::get('app_category_images_dir');

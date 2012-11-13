@@ -119,7 +119,7 @@ class VideoForm extends BaseVideoForm
     
     $this->widgetSchema->setHelp('video' , 'Formato: [nombre video].mp4');
     
-    $this->widgetSchema->setHelp('time' , 'Formato: [mm]:[ss]');
+    $this->widgetSchema->setHelp('time' , 'Formato: en Milisegundos');
     
     $this->embedI18n(array('es'));
     $this->widgetSchema->setLabel('es', 'Spanish');

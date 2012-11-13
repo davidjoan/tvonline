@@ -1,2 +1,9 @@
 showSuccess:
   javascripts: [jquery/jquery.movingboxes.js]
+liveSuccess:
+  javascripts: [jquery/jquery.movingboxes.js]  
+  layout: layout_live
+playlistSuccess:
+  has_layout: false  
+  metas:
+    content-type: text/xml

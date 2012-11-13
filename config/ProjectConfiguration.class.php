@@ -11,10 +11,8 @@ class ProjectConfiguration extends sfProjectConfigurationExt
     return array
            (
              'sfContactFormPlugin',
-             'sfVideoPlugin',
              'sfDoctrineNestedSetPlugin',
              'sfDoctrineActAsSignablePlugin',
-             'sfMediaBrowserPlugin',
              'sfDoctrineJQueryUISortablePlugin',
              'sfDoctrinePlugin',
              'symfextPlugin'
@@ -24,6 +22,8 @@ class ProjectConfiguration extends sfProjectConfigurationExt
   protected function setConfigVariables()
   {
     parent::setConfigVariables();
+    
+    $this->setWebDir($this->getRootDir().'/public_html');
     
     sfConfig::set('site_name', 'PERUTVONLINE');
     

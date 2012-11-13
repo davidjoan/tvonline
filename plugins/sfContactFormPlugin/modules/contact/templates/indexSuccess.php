@@ -39,18 +39,9 @@
 	      <td >
 		
 		<?php echo $form['message'] ?>
+		<?php echo $form['_csrf_token'] ?>
 	      </td>
 	    </tr>	     
-             <tr>
-                <th valign="top"><?php echo $form['captcha']->renderLabel(sfConfig::get('app_contact_form_field_captcha')) ?></th>
-                <td>
-                 <?php echo $form['_csrf_token'] ?>
-                 <?php echo $form['captcha'] ?><br/>
-                 <small>* Type the secret code in field above</small><br />
-                  <?php echo image_tag(sfConfig::get('app_contact_form_image_path')) ?>           
-                  
-                <td>
-	     <tr>
                 <td>&nbsp;</td>
 		<td>
 		  <input type="submit" value="<?php echo sfConfig::get('app_contact_form_button')?>" />

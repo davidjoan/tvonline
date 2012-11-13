@@ -13,4 +13,8 @@
                 src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
         </script>
     </div>
+    
+    <div id="ban7" class="cajaizq alpha60">
+        <?php include_partial('General/contact'); ?>
+    </div>    
 </div>

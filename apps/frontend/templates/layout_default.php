@@ -14,23 +14,31 @@
   <![endif]-->
   </head>     
   
-<body leftmargin="0" topmargin="0">
-<table width="1024" height="900" border="0" cellpadding="0" cellspacing="0">
-  <tr>
-    <td align="center" valign="top" background="/images/frontend/miolo.jpg">
-      <table width="1024" border="0" cellpadding="0" cellspacing="0">
-      <tr>
-        <td height="60" align="left"><img src="/images/general/logo.png" width="230" height="48" /></td>
-      </tr>
-      <tr>
-        <td align="center">
-        <?php echo $sf_content ?>
-        </td>
-      </tr>
-    </table>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1&appId=216640968456264";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="todo">
+<div class="fondo">
+<?php include_partial('General/header') ?>
+<div id="centro">
+<?php include_partial('General/banner') ?>
 
-    </td>
-  </tr>
-</table>
+<div id="colcentro" class="izquierda">
+<?php echo $sf_content; ?>
+</div>
+<?php include_partial('General/social') ?>
+
+<div class="breaker"></div>
+</div>
+<?php include_partial('General/footer') ?>
+</div>
+</div>
 </body>
+
 </html>

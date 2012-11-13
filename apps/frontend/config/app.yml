@@ -3,9 +3,13 @@
 
 # default values
 all:
+  live:
+    file: "perutvonline.sdp"
+    provider: "rtmp"
+    streamer: "rtmp://883286553.r.cdnstreaming.net/live-883286553"
   contact_form:
     ## Put here your email address. This email will receive the message from contact form
-    email:         new.skin007@gmail.com         
+    email:         perutvonline@hotmail.com
  
     ## custom your error message            
     error:        There is an error. Cannot be sent!
@@ -18,9 +22,7 @@ all:
  
  
     ## put here the absolute image path
-    ## example: http://localhost/yourproject/web/index.php/contact/image
-    ##image_path:   http://www.perutvonline.com/es/imagen
-    image_path:   http://localhost:9099/frontend_dev.php/es/imagen
+    image_path:  /es/imagen.png
  
     ## legend your form
     legend:       Please, fill the fields and send us a message 

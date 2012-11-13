@@ -6,17 +6,15 @@ class BaseContactActions extends sfActions
 
    public function executeIndex($request)
    {
-   	  sfConfig::set('sf_web_debug', false);
       $this->form = new ContactForm();
-
 
       if($request->isMethod('post')):
 
           $this->form->bind($request->getParameter('contact'));
         
-          if($this->form->isValid()):
+          if($this->form->isValid()){
    
-             if($this->form->getValue('captcha') == $this->getUser()->getAttribute('security_code')):
+           //  if($this->form->getValue('captcha') == $this->getUser()->getAttribute('security_code')):
              $mensagem = Swift_Message::newInstance()
 		  ->setFrom($this->form->getValue('email'))
                   ->setTo(sfConfig::get('app_contact_form_email'))
@@ -27,14 +25,13 @@ class BaseContactActions extends sfActions
 
              $this->getUser()->setFlash('notice', sfConfig::get('app_contact_form_notice'));
              $this->redirect('@contact');
-             else:
-             $this->getUser()->setFlash('error', sfConfig::get('app_contact_form_captcha'));
+           //  else:
+           //  $this->getUser()->setFlash('error', sfConfig::get('app_contact_form_captcha'));
      
-             endif;
-
-          else:
-             $this->getUser()->setFlash('error', sfConfig::get('app_contact_form_error'));
-          endif;
+          //   endif;
+          }
+          else{
+             $this->getUser()->setFlash('error', sfConfig::get('app_contact_form_error'));}
 
       endif;
 

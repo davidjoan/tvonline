@@ -25,7 +25,7 @@ abstract class sfUserExt extends sfBasicSecurityUser
   public function initialize(sfEventDispatcher $dispatcher, sfStorage $storage, $options = array())
   {
     parent::initialize($dispatcher, $storage, $options);
-    
+    echo ' ';
     $this->datetimeFormatter = new sfDateFormat($this->culture);
     $this->numberFormatter   = new sfNumberFormat($this->culture);
   }

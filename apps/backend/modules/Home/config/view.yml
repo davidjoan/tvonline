@@ -1,5 +1,0 @@
-showSuccess:
-  javascripts:
-    - jquery/jquery.metadata.js
-    - jquery/jquery.media.js
-    - mediaplayer/jwplayer.js
