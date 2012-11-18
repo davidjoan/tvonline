@@ -35,13 +35,6 @@ class HomeActions extends ActionsProject
       $this->videos = Doctrine::getTable('Video')->getVideos($this->category_id);      
   }
   
-  public function executeVideo(sfWebRequest $request)
-  {
-      $this->video_id = $request->getPostParameter('video');
-      $this->video    = Doctrine::getTable('Video')->findOneById($this->video_id);
-      $this->type     = is_object($this->video)?$this->video->getType():'W';
-  }
-  
   public function executePlaylist(sfWebRequest $request)
   {
       $this->videos   = Doctrine::getTable('Video')->getLive();

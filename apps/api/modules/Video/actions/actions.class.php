@@ -14,7 +14,8 @@ class VideoActions extends ActionsRestCrud
   {
     return array
     (
-      't'  => array('title_str'    => 'title')
+      't'  => array('title_str'    => 'title'),
+      't1'  => array('category_str' => 'name')
     );
   }
   

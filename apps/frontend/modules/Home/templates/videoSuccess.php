@@ -1,5 +1,0 @@
-<object id="flowplayer" width="586" height="323" data="http://releases.flowplayer.org/swf/flowplayer-3.2.5.swf" type="application/x-shockwave-flash">
-	<param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.5.swf" />
-	<param name="allowfullscreen" value="true" />
-	<param name="flashvars" value='config={"plugins": {"smil":{"url":"http://releases.flowplayer.org/flowplayer.smil/flowplayer.smil-3.2.1.swf"}, "controls":{"url":"http://releases.flowplayer.org/flowplayer.controls/flowplayer.controls-3.2.3.swf"}, "rtmp":{"url":"http://releases.flowplayer.org/flowplayer.rtmp/flowplayer.rtmp-3.2.3.swf"}}, "clip": {"provider":"rtmp","url":"http://724378576.r.cdnstreaming.net/video_1.mp4.smil"}, "playlist":[{"provider":"rtmp","url":"http://724378576.r.cdnstreaming.net/video_1.mp4.smil"}]}' />
-</object>

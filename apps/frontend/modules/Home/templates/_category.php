@@ -1,15 +1,11 @@
 <script>
-    function goToPlaylist()
-    {
-    
-        jwplayer("container").remove();
-            
+function goToPlaylist()
+{
+jwplayer("container").remove();            
 jwplayer("container").setup({
 modes: [
 { type: "flash", src: "/js/jwplayer/player.swf" },
-{ type: "html5" }
-
-],
+{ type: "html5" }],
 autostart: true,
 controlbar: "none",
 volume: 80,
@@ -36,9 +32,7 @@ repeat: "always",
             var duration = Math.round(playlist[index]['duration']);
             if(offset + duration > seconds) {
                 this.playlistItem(index);
-                //this.start(seconds-offset);
                 this.play();
-                //jwplayer().seek(seconds-offset);
                 break;
             } else {
                 offset += duration;
@@ -48,7 +42,6 @@ repeat: "always",
     }
     function playOnDemand(video,url)
     {
-    
     jwplayer('container').remove();
     jwplayer('container').setup(
     {
@@ -59,12 +52,13 @@ repeat: "always",
     stretching: "fill",
     height:"323",
     width:"586",
+    skin: "/skins/glow/glow.zip",
     autostart: true,   
+    file: 'http://233803962.r.cdnstreaming.net/'+video,
+    controlbar: 'over',
     "viral.onpause": false,
     "viral.oncomplete": false,
-    "viral.allowmenu": false, 
-    file: 'http://233803962.r.cdnstreaming.net/'+video,
-    controlbar: 'none',
+    "viral.allowmenu": false,  
     repeat: 'none', 
     events: { 
     onComplete: function(event) { goToPlaylist();},
@@ -100,7 +94,7 @@ repeat: "always",
         </li>
     <?php endforeach; ?>
 </ul>
-        <script type="text/javascript">
+  <script type="text/javascript">
             jQuery(document).ready(function() {
                 jQuery('#mycarousel').jcarousel({
                     wrap: 'circular'
@@ -115,4 +109,4 @@ repeat: "always",
                     'scrolling' : 'no'
                 });
             });
-        </script>
+  </script>

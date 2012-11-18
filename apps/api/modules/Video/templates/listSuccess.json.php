@@ -1,3 +1,4 @@
+<?php use_helper('Text') ?>  
 <?php 
 header('Access-Control-Allow-Origin: *');
 header('Cache-Control: no-cache, must-revalidate');
@@ -11,8 +12,8 @@ $i = 0; ?>
   <?php $i++;?>
 {
     "id" : "<?php echo $obj->getId();?>",
-    "title" : "<?php echo $obj->getTitleStr();?>",
-    "category" : "<?php echo $obj->getCategoryName(); ?>",
+    "title" : "<?php echo ($obj->getTitleStr());?>",
+    "category" : "<?php echo ($obj->getCategoryName()); ?>",
     "time" : "<?php echo ($obj->getTime() == "")?'100.000': $obj->getTime();?>",
     "video" : "<?php echo $obj->getVideo();?>",
     "image" : "<?php echo $obj->getImage();?>",

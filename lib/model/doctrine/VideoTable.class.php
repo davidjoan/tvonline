@@ -126,13 +126,13 @@ class VideoTable extends DoctrineTable {
     
     
     function updateQueryForListApi(DoctrineQuery $q) {
-        $q->addSelect('v.*,t.title title_str, c.*, t1.*')
+        $q->addSelect('v.*,t.title title_str, t1.name category_str, c.*, t1.*')
                 ->leftJoin('v.Translation t')
                 ->leftJoin('v.Category c')
                 ->leftJoin('c.Translation t1')
-                ->andWhere('v.active = ?', 1) 
+                ->addWhere('v.active = ?', 1) 
                 ->andWhereIn('v.type', array('F', 'V'))
-                ->andWhere('v.live = 0')
+                ->addWhere('v.category_id IS NOT NULL')
                 ->addWhere('t.lang = ?', 'es');
     }
 }
