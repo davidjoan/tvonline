@@ -23,7 +23,8 @@ class VideoForm extends BaseVideoForm
       'new'           => 'Video Nuevo',
       'live'          => 'Programación en Vivo',
       'type'          => 'Formato',
-      'active'        => 'Activo'
+      'active'        => 'Activo',
+      'banners_list'  => 'Banners'
     );
   }
   public function configure()
@@ -78,7 +79,15 @@ class VideoForm extends BaseVideoForm
                                   'choices'          => $this->getTable()->getLives(),
                                   'expanded'         => true,
                                   'renderer_options' => array('formatter' => array($this->widgetFormatter, 'radioFormatter'))
-                                )),            
+                                )),
+       'banners_list'       => new sfWidgetFormDoctrineChoice(array
+                                (
+                                  'model'            => 'Banner',
+                                  'expanded'         => true,
+                                  'multiple'         => true,
+                                  'renderer_class'   => 'sfWidgetFormSelectDoubleList',
+                                  'renderer_options' => array('label_unassociated' => 'No Seleccionados','label_associated'   => 'Seleccionados')
+                                )),
    ));
     
    $this->addValidators(array
@@ -108,7 +117,8 @@ class VideoForm extends BaseVideoForm
       'slug'        => '-',
       'created_by'  => '-',
       'updated_by'  => '-',
-      'video_preview' => 'pass'
+      'video_preview' => 'pass',
+      'banners_list'  => 'pass'
     );
     
     $this->setDefault('new', '1');

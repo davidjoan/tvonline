@@ -3,7 +3,7 @@
 <script type="text/javascript">
 jwplayer("container").setup({
 modes: [
-{ type: "flash", src: "/js/jwplayer/player.swf" },
+{ type: "flash", src: "/js/jwplayer5/player.swf" },
 { type: "html5" }
 
 ],

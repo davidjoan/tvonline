@@ -23,7 +23,7 @@ default:
     - jquery/jquery-ui-1.8.min.js
     - general/general.js
     - jquery/i18n/jquery-ui-i18n.js
-    - jwplayer/jwplayer.js    
+    - jwplayer5/jwplayer.js
 
   has_layout:     true
   layout:         layout
