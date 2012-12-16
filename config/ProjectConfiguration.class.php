@@ -15,7 +15,8 @@ class ProjectConfiguration extends sfProjectConfigurationExt
              'sfDoctrineActAsSignablePlugin',
              'sfDoctrineJQueryUISortablePlugin',
              'sfDoctrinePlugin',
-             'symfextPlugin'
+             'symfextPlugin',
+             'sfFormExtraPlugin'
            );
   }
   
@@ -30,7 +31,5 @@ class ProjectConfiguration extends sfProjectConfigurationExt
     $this->setConfigDirPathVariable('banner_images'   , sfConfig::get('sf_upload_dir').DIRECTORY_SEPARATOR.'banner_images' );
     $this->setConfigDirPathVariable('video_images'    , sfConfig::get('sf_upload_dir').DIRECTORY_SEPARATOR.'video_images'    );
     $this->setConfigDirPathVariable('category_images' , sfConfig::get('sf_upload_dir').DIRECTORY_SEPARATOR.'category_images' );
-    $this->setConfigDirPathVariable('theme_images'    , sfConfig::get('sf_upload_dir').DIRECTORY_SEPARATOR.'theme_images' );
-    
   }
 }

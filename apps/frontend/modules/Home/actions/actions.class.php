@@ -11,7 +11,7 @@
 class HomeActions extends ActionsProject
 {
  /**
-  * Executes index action
+  * Executes index page action
   *
   * @param sfRequest $request A request object
   */
@@ -42,6 +42,8 @@ class HomeActions extends ActionsProject
 
   }
   
+  //page for live
+
   public function executeLive(sfWebRequest $request)
   {
   	Doctrine::getTable('Visit')->createAndSave($request->getPathInfoArray());
@@ -57,6 +59,7 @@ class HomeActions extends ActionsProject
         $this->category_id = ($this->category_id == "")? 1 : $this->category_id;
         
         $this->category = Doctrine::getTable("Category")->findOneById($this->category_id);
+        
   	$this->videos = Doctrine::getTable('Video')->getVideos($this->category_id);
   	
   }    

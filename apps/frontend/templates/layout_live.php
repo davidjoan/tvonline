@@ -12,6 +12,7 @@
         <meta name="google-site-verification" content="BF0Fs1ACukEc0wgruLpb8p4N8fqHIeHhG6DLZIDTTLg" />
         <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="stylesheet" type="text/css" href="/skins/tango/skin.css" />     
+        <script>jwplayer.key="5EoOJ3GhHSGZq3TMiA/UWqrnssz0FcwXL2uR0w=="</script>
         <script type="text/javascript">
 
   var _gaq = _gaq || [];

@@ -16,5 +16,6 @@ abstract class ActionsProject extends sfActionsExt
     LOG_NAMESPACE                      = 'Log',
     VIDEO_NAMESPACE                    = 'Video',
     CATEGORY_NAMESPACE                 = 'Category',
-    USER_NAMESPACE                     = 'User';
+    USER_NAMESPACE                     = 'User',
+    BANNER_NAMESPACE                   = 'Banner';
 }

@@ -1,0 +1,195 @@
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:jwplayer="http://developer.longtailvideo.com/trac/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel> 
+<title>Perutvonline Playlist</title> 
+<item>
+<title>EL PISCO ES PERUANO</title> 
+<enclosure url="http://233803962.r.cdnstreaming.net/01_el_pisco.mp4" type="video/mp4" length="750.293333" />
+<media:content url="http://233803962.r.cdnstreaming.net/01_el_pisco.mp4" />
+<media:thumbnail url="http://www.perutvonline.com/uploads/video_images/a542d773fe75a0812744fa78c0159daecbd1560b.jpg" />
+<description></description>
+<jwplayer:duration>750.293333</jwplayer:duration> 
+<jwplayer:provider>http</jwplayer:provider>
+<jwplayer:http.startparam>starttime</jwplayer:http.startparam>
+</item> 
+<item>
+<title>tanda1</title> 
+<enclosure url="http://233803962.r.cdnstreaming.net/02_tandanew.mp4" type="video/mp4" length="221.205333" />
+<media:content url="http://233803962.r.cdnstreaming.net/02_tandanew.mp4" />
+<description></description>
+<jwplayer:duration>221.205333</jwplayer:duration> 
+<jwplayer:provider>http</jwplayer:provider>
+<jwplayer:http.startparam>starttime</jwplayer:http.startparam>
+</item> 
+<item>
+<title>ENCUENTROS SOBRE RUEDAS - CUSCO</title> 
+<enclosure url="http://233803962.r.cdnstreaming.net/03_encuentros_cusco.mp4" type="video/mp4" length="921.6" />
+<media:content url="http://233803962.r.cdnstreaming.net/03_encuentros_cusco.mp4" />
+<media:thumbnail url="http://www.perutvonline.com/uploads/video_images/cffec044388fa840be6430b04f664d127f7637ed.jpg" />
+<description></description>
+<jwplayer:duration>921.6</jwplayer:duration> 
+<jwplayer:provider>http</jwplayer:provider>
+<jwplayer:http.startparam>starttime</jwplayer:http.startparam>
+</item> 
+<item>
+<title>tanda2</title> 
+<enclosure url="http://233803962.r.cdnstreaming.net/04_tanda2.mp4" type="video/mp4" length="175.978666" />
+<media:content url="http://233803962.r.cdnstreaming.net/04_tanda2.mp4" />
+<description></description>
+<jwplayer:duration>175.978666</jwplayer:duration> 
+<jwplayer:provider>http</jwplayer:provider>
+<jwplayer:http.startparam>starttime</jwplayer:http.startparam>
+</item> 
+<item>
+<title>CrÃ³nicas y Retratos / Mario Torres</title> 
+<enclosure url="http://233803962.r.cdnstreaming.net/05_mario_torres.mp4" type="video/mp4" length="595.008" />
+<media:content url="http://233803962.r.cdnstreaming.net/05_mario_torres.mp4" />
+<media:thumbnail url="http://www.perutvonline.com/uploads/video_images/1e8cac56acf003242f0d3ff1b278059bf2c0ab5c.jpg" />
+<description></description>
+<jwplayer:duration>595.008</jwplayer:duration> 
+<jwplayer:provider>http</jwplayer:provider>
+<jwplayer:http.startparam>starttime</jwplayer:http.startparam>
+</item> 
+<item>
+<title>tanda3</title> 
+<enclosure url="http://233803962.r.cdnstreaming.net/06_tanda3.mp4" type="video/mp4" length="180.501333" />
+<media:content url="http://233803962.r.cdnstreaming.net/06_tanda3.mp4" />
+<description></description>
+<jwplayer:duration>180.501333</jwplayer:duration> 
+<jwplayer:provider>http</jwplayer:provider>
+<jwplayer:http.startparam>starttime</jwplayer:http.startparam>
+</item> 
+<item>
+<title>The Avergers</title> 
+<enclosure url="http://233803962.r.cdnstreaming.net/07_the_avergers.mp4" type="video/mp4" length="334.485333" />
+<media:content url="http://233803962.r.cdnstreaming.net/07_the_avergers.mp4" />
+<media:thumbnail url="http://www.perutvonline.com/uploads/video_images/11f7a1dc5dda5272c92c9b2ac8a4a2837586e673.jpg" />
+<description></description>
+<jwplayer:duration>334.485333</jwplayer:duration> 
+<jwplayer:provider>http</jwplayer:provider>
+<jwplayer:http.startparam>starttime</jwplayer:http.startparam>
+</item> 
+<item>
+<title>tanda4</title> 
+<enclosure url="http://233803962.r.cdnstreaming.net/08_tanda1.mp4" type="video/mp4" length="150.698666" />
+<media:content url="http://233803962.r.cdnstreaming.net/08_tanda1.mp4" />
+<description></description>
+<jwplayer:duration>150.698666</jwplayer:duration> 
+<jwplayer:provider>http</jwplayer:provider>
+<jwplayer:http.startparam>starttime</jwplayer:http.startparam>
+</item> 
+<item>
+<title>JORGE CHAVEZ</title> 
+<enclosure url="http://233803962.r.cdnstreaming.net/09_jorge_chavez.mp4" type="video/mp4" length="699.733333" />
+<media:content url="http://233803962.r.cdnstreaming.net/09_jorge_chavez.mp4" />
+<media:thumbnail url="http://www.perutvonline.com/uploads/video_images/9ce6fa19cdba358653b0ea18ce28375f7c8fba75.jpg" />
+<description></description>
+<jwplayer:duration>699.733333</jwplayer:duration> 
+<jwplayer:provider>http</jwplayer:provider>
+<jwplayer:http.startparam>starttime</jwplayer:http.startparam>
+</item> 
+<item>
+<title>tanda5</title> 
+<enclosure url="http://233803962.r.cdnstreaming.net/10_tanda2.mp4" type="video/mp4" length="175.978666" />
+<media:content url="http://233803962.r.cdnstreaming.net/10_tanda2.mp4" />
+<description></description>
+<jwplayer:duration>175.978666</jwplayer:duration> 
+<jwplayer:provider>http</jwplayer:provider>
+<jwplayer:http.startparam>starttime</jwplayer:http.startparam>
+</item> 
+<item>
+<title>PERU, CATALOGO DEL MUNDO</title> 
+<enclosure url="http://233803962.r.cdnstreaming.net/11_peru_catalogo.mp4" type="video/mp4" length="307.882666" />
+<media:content url="http://233803962.r.cdnstreaming.net/11_peru_catalogo.mp4" />
+<media:thumbnail url="http://www.perutvonline.com/uploads/video_images/1646023c41dd3d071b88534d153e8319baa41493.jpg" />
+<description></description>
+<jwplayer:duration>307.882666</jwplayer:duration> 
+<jwplayer:provider>http</jwplayer:provider>
+<jwplayer:http.startparam>starttime</jwplayer:http.startparam>
+</item> 
+<item>
+<title>tanda6</title> 
+<enclosure url="http://233803962.r.cdnstreaming.net/12_tandanew.mp4" type="video/mp4" length="221.205333" />
+<media:content url="http://233803962.r.cdnstreaming.net/12_tandanew.mp4" />
+<description></description>
+<jwplayer:duration>221.205333</jwplayer:duration> 
+<jwplayer:provider>http</jwplayer:provider>
+<jwplayer:http.startparam>starttime</jwplayer:http.startparam>
+</item> 
+<item>
+<title>EL ELECTRICISTA</title> 
+<enclosure url="http://233803962.r.cdnstreaming.net/13_el_electicista.mp4" type="video/mp4" length="528.362666" />
+<media:content url="http://233803962.r.cdnstreaming.net/13_el_electicista.mp4" />
+<media:thumbnail url="http://www.perutvonline.com/uploads/video_images/897410bb566f28ad68ad6e292e376688d87f833d.jpg" />
+<description></description>
+<jwplayer:duration>528.362666</jwplayer:duration> 
+<jwplayer:provider>http</jwplayer:provider>
+<jwplayer:http.startparam>starttime</jwplayer:http.startparam>
+</item> 
+<item>
+<title>tanda7</title> 
+<enclosure url="http://233803962.r.cdnstreaming.net/14_tanda1.mp4" type="video/mp4" length="150.698666" />
+<media:content url="http://233803962.r.cdnstreaming.net/14_tanda1.mp4" />
+<description></description>
+<jwplayer:duration>150.698666</jwplayer:duration> 
+<jwplayer:provider>http</jwplayer:provider>
+<jwplayer:http.startparam>starttime</jwplayer:http.startparam>
+</item> 
+<item>
+<title>Entre lÃ­neas de Fuego, Fotografos de Guerra</title> 
+<enclosure url="http://233803962.r.cdnstreaming.net/15_fotografos_guerra.mp4" type="video/mp4" length="2886.29333" />
+<media:content url="http://233803962.r.cdnstreaming.net/15_fotografos_guerra.mp4" />
+<media:thumbnail url="http://www.perutvonline.com/uploads/video_images/a83f40dc8a17f78da0642758edff21cbfa8ad578.jpg" />
+<description></description>
+<jwplayer:duration>2886.29333</jwplayer:duration> 
+<jwplayer:provider>http</jwplayer:provider>
+<jwplayer:http.startparam>starttime</jwplayer:http.startparam>
+</item> 
+<item>
+<title>tanda8</title> 
+<enclosure url="http://233803962.r.cdnstreaming.net/16_tanda2.mp4" type="video/mp4" length="175.978666" />
+<media:content url="http://233803962.r.cdnstreaming.net/16_tanda2.mp4" />
+<description></description>
+<jwplayer:duration>175.978666</jwplayer:duration> 
+<jwplayer:provider>http</jwplayer:provider>
+<jwplayer:http.startparam>starttime</jwplayer:http.startparam>
+</item> 
+<item>
+<title>HOTEL BOLIVAR</title> 
+<enclosure url="http://233803962.r.cdnstreaming.net/17_hotel_bolivar.mp4" type="video/mp4" length="170.453333" />
+<media:content url="http://233803962.r.cdnstreaming.net/17_hotel_bolivar.mp4" />
+<media:thumbnail url="http://www.perutvonline.com/uploads/video_images/128280cf842308ed77de8c1e40c5958e0f099f65.jpg" />
+<description></description>
+<jwplayer:duration>170.453333</jwplayer:duration> 
+<jwplayer:provider>http</jwplayer:provider>
+<jwplayer:http.startparam>starttime</jwplayer:http.startparam>
+</item> 
+<item>
+<title>tanda9</title> 
+<enclosure url="http://233803962.r.cdnstreaming.net/18_tanda3.mp4" type="video/mp4" length="180.501333" />
+<media:content url="http://233803962.r.cdnstreaming.net/18_tanda3.mp4" />
+<description></description>
+<jwplayer:duration>180.501333</jwplayer:duration> 
+<jwplayer:provider>http</jwplayer:provider>
+<jwplayer:http.startparam>starttime</jwplayer:http.startparam>
+</item> 
+<item>
+<title>Calendario TurÃ­stico Julio</title> 
+<enclosure url="http://233803962.r.cdnstreaming.net/19_calendario_turistico_julio.mp4" type="video/mp4" length="155.2" />
+<media:content url="http://233803962.r.cdnstreaming.net/19_calendario_turistico_julio.mp4" />
+<media:thumbnail url="http://www.perutvonline.com/uploads/video_images/c3b325203263b9d3d08cc6114cb922cbcaeb6096.jpg" />
+<description></description>
+<jwplayer:duration>155.2</jwplayer:duration> 
+<jwplayer:provider>http</jwplayer:provider>
+<jwplayer:http.startparam>starttime</jwplayer:http.startparam>
+</item> 
+<item>
+<title>tanda10</title> 
+<enclosure url="http://233803962.r.cdnstreaming.net/20_tandanew.mp4" type="video/mp4" length="221.205333" />
+<media:content url="http://233803962.r.cdnstreaming.net/20_tandanew.mp4" />
+<description></description>
+<jwplayer:duration>221.205333</jwplayer:duration> 
+<jwplayer:provider>http</jwplayer:provider>
+<jwplayer:http.startparam>starttime</jwplayer:http.startparam>
+</item> 
+</channel> 
+</rss>

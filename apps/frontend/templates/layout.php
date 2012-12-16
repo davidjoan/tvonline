@@ -11,7 +11,9 @@
         <?php include_stylesheets() ?>
         <meta name="google-site-verification" content="BF0Fs1ACukEc0wgruLpb8p4N8fqHIeHhG6DLZIDTTLg" />
         <link rel="shortcut icon" href="/favicon.ico" />
-        <link rel="stylesheet" type="text/css" href="/skins/tango/skin.css" />     
+        <link rel="stylesheet" type="text/css" href="/skins/tango/skin.css" />
+        <script>jwplayer.key="TjEcgl2YXzHcVUU/3lD5J4/dDV7n+th0JkHXmg=="</script>
+ 
         <script type="text/javascript">
 
   var _gaq = _gaq || [];

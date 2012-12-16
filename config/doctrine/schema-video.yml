@@ -18,25 +18,72 @@ Video:
     I18n:
       fields: [title, description]
   columns:
-    id:                                { type: integer  , length: 20 , primary: true    , autoincrement: true                                                  }
-    category_id:                       { type: integer  , length: 20                    , notnull: false                                                       }
-    code:                              { type: string   , length: 20                    , notnull: true                                                        }
-    title:                             { type: string   , length: 100                   , notnull: true                                                        }
-    description:                       { type: string   , length: 5000                  , notnull: true                                                        }
-    image:                             { type: string   , length: 200                   , notnull: false                                                       }
-    video:                             { type: string   , length: 4000                  , notnull: false                                                       } 
-    time:                              { type: string   , length: 10                    , notnull: false                                                       }
-    live:                              { type: string   , length: 1  , fixed: true      , notnull: true , default: 0                                           }
-    new:                               { type: string   , length: 1  , fixed: true      , notnull: true , default: 1                                           }
-    active:                            { type: string   , length: 1  , fixed: true      , notnull: true , default: 1                                           }
-    type:                              { type: string   , length: 1  , fixed: true      , notnull: true , default: 'F'                                         }
+    id:                                { type: integer  , length: 20 , primary: true    , autoincrement: true              }
+    category_id:                       { type: integer  , length: 20                    , notnull: false                   }
+    code:                              { type: string   , length: 20                    , notnull: true                    }
+    title:                             { type: string   , length: 100                   , notnull: true                    }
+    description:                       { type: string   , length: 5000                  , notnull: true                    }
+    image:                             { type: string   , length: 200                   , notnull: false                   }
+    video:                             { type: string   , length: 4000                  , notnull: false                   } 
+    time:                              { type: string   , length: 10                    , notnull: false                   }
+    live:                              { type: string   , length: 1  , fixed: true      , notnull: true , default: 0       }
+    new:                               { type: string   , length: 1  , fixed: true      , notnull: true , default: 1       }
+    active:                            { type: string   , length: 1  , fixed: true      , notnull: true , default: 1       }
+    type:                              { type: string   , length: 1  , fixed: true      , notnull: true , default: 'F'     }
   indexes:
-    i_active:                          { fields: [ active ]                                                                                                    }
-    i_code:                            { fields: [ code ]                                                                                                      }
-    i_video:                           { fields: [ code ]                                                                                                      }
-    i_time:                            { fields: [ code ]                                                                                                      }
+    i_active:                          { fields: [ active ]    }
+    i_code:                            { fields: [ code ]      }
+    i_video:                           { fields: [ code ]      }
+    i_time:                            { fields: [ code ]      }
   relations:
-    Category:                          { class: Category, local  : category_id     , foreign: id           , type: one , alias:  Category   , onDelete: CASCADE, onUpdate: CASCADE }
+    Category:     { class: Category, local: category_id, foreign: id, type: one , alias:  Category, onDelete: CASCADE, onUpdate: CASCADE }
+    Banner:       { class: Banner  , local: video_id   , foreign: banner_id , alias: Banners, refClass: VideoBanner  }
   options:
     symfony:                           { filter: false, form: true }
-    boolean_columns:                   [ active, new, type, live ]    
+    boolean_columns:                   [ active, new, type, live ]
+
+
+Banner:
+  tableName:                      t_banner
+  actAs:
+    Timestampable:
+    SluggableExt: { fields: [title]}
+    Signable:
+      created:
+        name: created_by
+        type: integer
+        onUpdate: CASCADE
+        onDelete: SET NULL
+        options:
+          notnull: true
+          default: 1
+      updated:
+        name: updated_by
+        type: string
+  columns:
+    id:                                { type: integer  , length: 20 , primary: true    , autoincrement: true              }
+    title:                             { type: string   , length: 200                   , notnull: true                    }
+    url:                               { type: string   , length: 500                   , notnull: true                    }
+    image:                             { type: string   , length: 200                   , notnull: true                    }
+    active:                            { type: string   , length: 1  , fixed: true      , notnull: true , default: 1       }
+  relations:
+    Video:       { class: Video  , local: banner_id   , foreign: video_id , alias: Videos, refClass: VideoBanner  }
+  indexes:
+    i_active:                          { fields: [ active ]    }
+  options:
+    symfony:                           { filter: false, form: true }
+    boolean_columns:                   [ active ]
+
+
+VideoBanner:
+  tableName:                           t_video_banner
+  actAs:
+    Timestampable:                     { updated: { disabled: true } }
+  columns:
+    video_id:                          { type: integer  , length: 20 , primary: true  }
+    banner_id:                         { type: integer  , length: 20 , primary: true  }
+  relations:
+    Video: { class: Video , local: video_id   , foreign: id, type: one , alias: Video   , onDelete: CASCADE , onUpdate: CASCADE }
+    Banner: { class: Banner , local: banner_id , foreign: id, type: one , alias: Banner , onDelete: CASCADE , onUpdate: CASCADE }
+  options:
+    symfony:                           { filter: false, form: false }

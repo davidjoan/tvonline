@@ -26,6 +26,13 @@
           ?>
           <?php include_partial('General/tab', array
                 (
+                  'title'       => 'Banners',
+                  'uri'         => '@banner_list',
+                  'image'       => 'backend/menu/inventory.gif',
+                ))
+          ?>
+          <?php include_partial('General/tab', array
+                (
                   'title'       => 'Usuarios', 
                   'uri'         => '@user_list',
                   'image'       => 'backend/menu/user.gif',

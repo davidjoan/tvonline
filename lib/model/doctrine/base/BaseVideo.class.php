@@ -18,33 +18,39 @@
  * @property string $active
  * @property string $type
  * @property Category $Category
+ * @property Doctrine_Collection $Banners
+ * @property Doctrine_Collection $VideoBanner
  * 
- * @method integer  getId()          Returns the current record's "id" value
- * @method integer  getCategoryId()  Returns the current record's "category_id" value
- * @method string   getCode()        Returns the current record's "code" value
- * @method string   getTitle()       Returns the current record's "title" value
- * @method string   getDescription() Returns the current record's "description" value
- * @method string   getImage()       Returns the current record's "image" value
- * @method string   getVideo()       Returns the current record's "video" value
- * @method string   getTime()        Returns the current record's "time" value
- * @method string   getLive()        Returns the current record's "live" value
- * @method string   getNew()         Returns the current record's "new" value
- * @method string   getActive()      Returns the current record's "active" value
- * @method string   getType()        Returns the current record's "type" value
- * @method Category getCategory()    Returns the current record's "Category" value
- * @method Video    setId()          Sets the current record's "id" value
- * @method Video    setCategoryId()  Sets the current record's "category_id" value
- * @method Video    setCode()        Sets the current record's "code" value
- * @method Video    setTitle()       Sets the current record's "title" value
- * @method Video    setDescription() Sets the current record's "description" value
- * @method Video    setImage()       Sets the current record's "image" value
- * @method Video    setVideo()       Sets the current record's "video" value
- * @method Video    setTime()        Sets the current record's "time" value
- * @method Video    setLive()        Sets the current record's "live" value
- * @method Video    setNew()         Sets the current record's "new" value
- * @method Video    setActive()      Sets the current record's "active" value
- * @method Video    setType()        Sets the current record's "type" value
- * @method Video    setCategory()    Sets the current record's "Category" value
+ * @method integer             getId()          Returns the current record's "id" value
+ * @method integer             getCategoryId()  Returns the current record's "category_id" value
+ * @method string              getCode()        Returns the current record's "code" value
+ * @method string              getTitle()       Returns the current record's "title" value
+ * @method string              getDescription() Returns the current record's "description" value
+ * @method string              getImage()       Returns the current record's "image" value
+ * @method string              getVideo()       Returns the current record's "video" value
+ * @method string              getTime()        Returns the current record's "time" value
+ * @method string              getLive()        Returns the current record's "live" value
+ * @method string              getNew()         Returns the current record's "new" value
+ * @method string              getActive()      Returns the current record's "active" value
+ * @method string              getType()        Returns the current record's "type" value
+ * @method Category            getCategory()    Returns the current record's "Category" value
+ * @method Doctrine_Collection getBanners()     Returns the current record's "Banners" collection
+ * @method Doctrine_Collection getVideoBanner() Returns the current record's "VideoBanner" collection
+ * @method Video               setId()          Sets the current record's "id" value
+ * @method Video               setCategoryId()  Sets the current record's "category_id" value
+ * @method Video               setCode()        Sets the current record's "code" value
+ * @method Video               setTitle()       Sets the current record's "title" value
+ * @method Video               setDescription() Sets the current record's "description" value
+ * @method Video               setImage()       Sets the current record's "image" value
+ * @method Video               setVideo()       Sets the current record's "video" value
+ * @method Video               setTime()        Sets the current record's "time" value
+ * @method Video               setLive()        Sets the current record's "live" value
+ * @method Video               setNew()         Sets the current record's "new" value
+ * @method Video               setActive()      Sets the current record's "active" value
+ * @method Video               setType()        Sets the current record's "type" value
+ * @method Video               setCategory()    Sets the current record's "Category" value
+ * @method Video               setBanners()     Sets the current record's "Banners" collection
+ * @method Video               setVideoBanner() Sets the current record's "VideoBanner" collection
  * 
  * @package    tvonline
  * @subpackage model
@@ -171,6 +177,15 @@ abstract class BaseVideo extends DoctrineRecord
              'foreign' => 'id',
              'onDelete' => 'CASCADE',
              'onUpdate' => 'CASCADE'));
+
+        $this->hasMany('Banner as Banners', array(
+             'refClass' => 'VideoBanner',
+             'local' => 'video_id',
+             'foreign' => 'banner_id'));
+
+        $this->hasMany('VideoBanner', array(
+             'local' => 'id',
+             'foreign' => 'video_id'));
 
         $timestampable0 = new Doctrine_Template_Timestampable();
         $sluggableext0 = new Doctrine_Template_SluggableExt(array(

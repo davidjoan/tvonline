@@ -1,27 +1,12 @@
 <script>
 function goToPlaylist()
 {
-jwplayer("container").remove();            
-jwplayer("container").setup({
-modes: [
-{ type: "flash", src: "/js/jwplayer/player.swf" },
-{ type: "html5" }],
+jwplayer('container').load({
 autostart: true,
-controlbar: "none",
-volume: 80,
-stretching: "fill",
 height:"323",
 width:"586",
-skin: "/skins/glow/glow.zip",
-file: "/perutvonline/playlist.xml",
-repeat: "always",
-"viral.onpause": false,
-"viral.oncomplete": false,
-"viral.allowmenu": false,
-    events: {
-        onPause: function(event) {jwplayer("container").play();}
-    }
-});
+playlist: "/perutvonline/playlist.xml"
+}).play();
 
     jwplayer().onReady(function() {
         var seconds = new Date().getMinutes()*60 + new Date().getSeconds();
@@ -40,40 +25,52 @@ repeat: "always",
         }
     });
     }
-    function playOnDemand(video,url)
+    function playOnDemand(video,url, images)
     {
-    jwplayer('container').remove();
-    jwplayer('container').setup(
+    jwplayer('container').load(
     {
-    modes: [
-    { type: "flash", src: "/js/jwplayer/player.swf" },
-    { type: "html5" }
-    ],
-    stretching: "fill",
-    height:"323",
-    width:"586",
-    skin: "/skins/glow/glow.zip",
-    autostart: true,   
-    file: 'http://233803962.r.cdnstreaming.net/'+video,
-    controlbar: 'over',
-    "viral.onpause": false,
-    "viral.oncomplete": false,
-    "viral.allowmenu": false,  
-    repeat: 'none', 
-    events: { 
-    onComplete: function(event) { goToPlaylist();},
-    onPause: function(event) {
-    if(url == "")
-    {
-    jwplayer("container").play();
-    }else
-    {
-    jwplayer("container").play();
-    window.location= url;
-    }
-    }
-    }
+      height:"323",
+      width:"586",
+      autostart: true,
+      file: 'http://233803962.r.cdnstreaming.net/'+video
+    }).play();
+
+
+    jwplayer().onComplete(function (){
+        $('#float-banner').hide();
+        goToPlaylist();
     });
+
+    jwplayer().onPause(function (){
+      if(url == "")
+      {
+        jwplayer("container").play();
+      }else
+      {
+        jwplayer("container").play();
+        window.location= url;
+      }
+    });
+
+    $(document).ready(function() {
+
+
+        if(images == '')
+        {
+         $('#float-banner').hide();
+        }
+        else
+            {
+                $('#float-banner').show();
+                $('#slider').empty();
+                $('#slider').html(images);
+
+                  $('#slider').cycle('fade');
+
+            }
+        
+       
+        });
     }
 </script>
 <div class="txtSeccion"><?php echo $category->Translation[$sf_user->getCulture()]->name; ?> </div>
@@ -86,7 +83,7 @@ repeat: "always",
                     <?php if($video->getType() == 'E'): ?>
                     <?php echo link_to(image_tag(sfConfig::get('app_video_images_path') . '/' . $video->getImage(), array('border' => 0, 'width' => 100, 'height' => 75, 'alt' => $video->Translation['es']->title)),"@live?sf_culture=".$sf_user->getCulture().'&slug='.$video->getSlug()); ?>
                     <?php else: ?>
-                    <?php echo link_to_function(image_tag(sfConfig::get('app_video_images_path') . '/' . $video->getImage(), array('border' => 0, 'width' => 100, 'height' => 75, 'alt' => $video->Translation['es']->title)),"playOnDemand('".$video->getVideo()."','".$video->Translation['es']->description."');"); ?>
+                    <?php echo link_to_function(image_tag(sfConfig::get('app_video_images_path') . '/' . $video->getImage(), array('border' => 0, 'width' => 100, 'height' => 75, 'alt' => $video->Translation['es']->title)),"playOnDemand('".$video->getVideo()."','".$video->Translation['es']->description."','".$video->getFullBanners()."');"); ?>
                     <?php endif; ?> 
                 </div>
                 <div class="itemtxt"><?php echo $video->getTitleEs(); ?></div>

@@ -23,6 +23,7 @@ default:
     - jquery/jquery-ui-1.8.min.js
     - fancybox/jquery.mousewheel-3.0.4.pack.js
     - fancybox/jquery.fancybox-1.3.4.pack.js
+    - frontend/jquery.cycle.js
 
   has_layout:     true
   layout:         layout

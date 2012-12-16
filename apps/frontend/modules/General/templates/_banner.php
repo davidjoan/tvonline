@@ -1,4 +1,11 @@
 <div id="colizquierda" class="izquierda">
+        <div id="float-banner" style="height: 281px; width: 197px; float: right; margin-top: 0; position: fixed; z-index: 100000; display: none;">
+            <div id="slider" class="nivoSlider"> </div>
+                        <div id="htmlcaption" class="nivo-html-caption">
+            </div>
+
+
+    </div>
     <div id="ban1" class="cajaizq alpha60">
         <br/>
         <script type="text/javascript"><!--
@@ -16,5 +23,5 @@
     
     <div id="ban7" class="cajaizq alpha60">
         <?php include_partial('General/contact'); ?>
-    </div>    
+    </div>
 </div>

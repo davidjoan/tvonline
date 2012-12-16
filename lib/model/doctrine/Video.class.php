@@ -114,4 +114,18 @@ $hours= "00";
 $time_format= "  " . $mins . ":" . $sec; //00:15:00
 return $time_format;
   }
+
+  public function getFullBanners()
+  {
+      $response = "";
+      foreach($this->getBanners() as $key => $banner)
+      {
+          $title = $banner->getTitle();
+          $url = $banner->getUrl();
+          $imagen = $banner->getTable()->getImagePath().'/'.$banner->getImage();
+          $response =$response.sprintf('<a href="%s" name="%s" title="%s" target="_BLANK" style="display:block;"><img src="%s" title="%s" heigth="285" width="195" /></a>', $url, $key, $title, $imagen, $title);
+      }
+
+      return $response;
+  }
 }

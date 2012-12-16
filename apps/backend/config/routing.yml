@@ -1,8 +1,37 @@
 ###########################
+########## Banner #########
+###########################
+
+#Banner
+banner_show:
+  url:             /mostrar/banner/:slug
+  param:           { module: Banner, action: show }
+  requirements:    { slug: \w+ }
+
+banner_list:
+  url:             /listar/banner/:filter_by/:filter/:order_by/:order/:max/:page
+  param:           { module: Banner, action: list, filter_by: id, filter: 0, order_by: title, order: a, max: 20, page: 1, rflow: on }
+  requirements:    { filter_by: \w+, filter: '[^\/^\s]+', order_by: \w+, order: \w+, max: \d+, page: \d+ }
+
+banner_new:
+  url:             /nuevo/banner
+  param:           { module: Banner, action: edit }
+
+banner_edit:
+  url:             /editar/banner/:slug
+  param:           { module: Banner, action: edit }
+  requirements:    { slug: '[\w-]+' }
+
+banner_delete:
+  url:             /eliminar/banner/:slug
+  param:           { module: Banner, action: delete }
+  requirements:    { slug: '[\w-,]+' }
+
+###########################
 ########## Video ##########
 ###########################
 
-#Category
+#Video
 video_show:
   url:             /mostrar/video/:slug
   param:           { module: Video, action: show }
